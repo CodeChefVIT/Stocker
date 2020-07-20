@@ -43,9 +43,34 @@
                 </ul>
             </div>
         </nav>
+
+<!-- 
+--------------------------chatbot------------------------------ -->
+<div id="widget-container">
+    <span href="" style="padding: 20px; padding-top: 20px;"><i class="fas fa-comment-alt fa-3x"></i></span>
+</div>
+
+<div class="chatbot-minimised" id="chatbot-body">
+ 
+     <div class="container-fluid chatbot-header">
+         <h5 class="text-center"> <span><i class="fas fa-chart-line"></i></span> StokerBot</h5>
+     </div>
+     <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque tenetur autem velit facere voluptates laborum, quasi error est ipsa, sed modi dolor iusto! Vero a sunt molestiae et earum.</p>
+     
+    </div>
+    <div class="chatbot-message container">
+        <textarea name="" id="chatbot-input" cols="30" rows="1"></textarea> <span style="float:right;" onclick="chat()" ><i class="fas fa-arrow-alt-circle-right fa-2x"></i></span>
+
+    </div>
+
+</div>
+
+
+
 <!-- -------------------------------cAROUSEL--------------------------------- -->
           
-               
+<!--                
                 <div id="stocker-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" style="width: 100%; height: 650px;">
                         <div class="carousel-caption d-none d-sm-block caption-header">
@@ -57,19 +82,18 @@
                           
                           </div>
                            
-                        <img class="d-block w-100" src="assets/img/E3D.gif" alt="Second slide">
+                        <img class="d-block w-100" src="assets/img/E3D.gif" alt="Second slide" style="height: inherit;">
                        
                       
                     </div>
-                </div>
-
-                <!-- <div class="container-fluid" style="position:relative; padding:0; color: white;">
-                    <img src="assets/img/E3D.gif" alt="" style="width: 100%;height:650px;">
-                    <div style="position: absolute;top:17%; left: 10%;">
-                        <h3 class="display-3">Stay Ahead of the competetion with stocker</h3>
-                        <p class="text-center"> <strong> A mutual fund calculator, chatbot and much more on Stocker!</strong></p>
-                    </div>
                 </div> -->
+
+                <div class="container-fluid" style="width: 100%; height: 650px; overflow: hidden; padding:0; position: relative;">
+                    <img src="assets/img/E3D.gif" alt="" style="height: inherit; width: 100%;">
+                    <h2 class="center-title">Stay Ahead of the competetion with stocker</h2>
+                    <p class="center-para"> <strong> A mutual fund calculator, chatbot and much more on Stocker!</strong></p>
+                    <a href="signup.html" class="center-button" >  <button class="btn btn-outline-light center-button" style="width: 300px;">Get Started</button></a>
+                </div>
                   <br>
                   
                   
@@ -77,7 +101,7 @@
 
                   <hr>
                   <div class="container-fluid">
-                    <div class="jumbotron text-black" style=" color:ivory; background-image:url(assets/img/stocks-background.jpg);">
+                    <div class="jumbotron text-black" style=" color:ivory; background-image:url(assets/img/stocks-background.jpg);overflow-wrap: break-word;">
                         <h1>Take a look at our recommendations!!</h1>
                         <br>
                         <p> <strong> Our database serves you the stocks with most potential</strong></p>
@@ -87,10 +111,10 @@
               
                <hr style="color:white;">
                   <div class="container">
-                    <nav class="navbar navbar-expand-md nav-pills sidenav">
-                        <a class="navbar-brand side-item disabled" href="">Categories:</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sideNav"nstyle="border-color: teal;">
-                            <span class="navbar-toggler-icon" ></span>
+                    <nav class="navbar navbar-dark navbar-expand-md sidenav">
+                        <a class="navbar-brand side-item" href="">Categories:</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sideNav">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="sideNav">
                             <ul class="navbar-nav mr-auto">
