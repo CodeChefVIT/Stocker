@@ -41,13 +41,13 @@ border-right:none;
 }
 .form-control:hover
 {
-    border-bottom:2px solid#046331;
+    border:2px solid#046331;
 }
 .form-control:focus
 {
-    border-bottom:4px solid #00863f;
+    border:4px solid #00863f;
     background-color: black;
-
+  outline: none!important;
 }
 
 .outer
@@ -58,10 +58,28 @@ border-right:none;
 {
     background-color: black;
     margin-bottom:10px;
+    border: 1px solid teal;
 }
+.company-more-info
+{
+  width: 500px;
+  height:500px;
+  background: black;
+  position: fixed;
+  top: 20%;
+  left:35%;
+  z-index: 13;
+  border: 1px solid teal;
+  display: none;
+}
+.show
+{
+  display:block;
+}
+
 .content
 {   margin:0 auto;
- 
+
     height: fit-content;   
 }
 #searhCompany
@@ -86,7 +104,6 @@ border-right:none;
 }
 
 
-
 /* hover effects--------------------------------------- */
 .hvr-float {
     display: inline-block;
@@ -105,46 +122,39 @@ border-right:none;
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
-  /* Sweep To Bottom */
-.hvr-sweep-to-bottom {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-  }
-  .hvr-sweep-to-bottom:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #046331;
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: 50% 0;
-    transform-origin: 50% 0;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-  .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
-    color: white;
-  }
-  .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
+/* Reveal */
+.hvr-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-color: #2098D1;
+  border-style: solid;
+  border-width: 0;
+  -webkit-transition-property: border-width;
+  transition-property: border-width;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 4px;
+}
   /* Grow */
 .hvr-grow {
     display: inline-block;
@@ -161,6 +171,8 @@ border-right:none;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+
 
 .fa-plus
 {
@@ -228,11 +240,11 @@ border-right:none;
 .chatbot-expanded
 {
     z-index: 11;
-    height: 500px;
-    width: 350px;
-    border: 2px solid white;
+    height: 550px;
+    width: 340px;
+    /* border: 2px solid white; */
     border-radius: 5px;
-    margin: 50px;
+    margin: 30px;
     opacity: 1;
     display:block;
     background:#cdd5d6;
@@ -243,59 +255,194 @@ border-right:none;
 }
 .chatbot-header
 {
-  border-radius: inherit;
+   border-radius: inherit;
     color:black;
     background:#f23c3c;
     padding: 5px;
+    height:50px;
 }
-.chatbot-message
-{
+
+
+.chatbot-message-box {
+  flex: 0 1 42px;
+  width: 100%;
+  background: #fff; 
+  margin:2px auto;
+  padding: 10px;
   position: absolute;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 15px 15px 5px 5px; 
+  height:38px;
   bottom: 0;
-  border-top: 1px solid red;
-  background-color:white;
-  border-radius: 5px;
+  border:1px solid #ccc;
 }
-#chatbot-input
-{
-  width: 250px;
-  margin: 2px;
-  border:none;
-}
-/* #chatbot-input:focus
-{
+ 
+.message-input {
+    background: none;
+    border: none;
+    outline: none!important;
+    resize: none; 
+    /* color: rgba(255, 255, 255, .8);*/
+    font-size: 15px;
+    height: 24px;
+    margin: 0;
+    padding-right: 20px;
+    width: 85%;
+    color: #444;  }
+  textarea:focus:-webkit-placeholder {
+    color: transparent;
+  }
+   .message-submit {
+    position: absolute;
+    z-index: 1;
+    top: 9px;
+    right: 10px;
+    color: #4A90E2;
+     background:none;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    padding:0 10px;
+    border-radius: 5px;
+    outline: none!important;
+    /* transition:background .2s ease; */
+    cursor:pointer;
+   }
+    .message-submit:hover {
+      background:none;
+      color: #333;
+  }
+
+  .message {
+    clear: both;
+    float: left;
+    padding: 6px 10px 7px;
+    border-radius: 20px 20px 20px 0; 
+    background: #eee; 
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-left: 5px;
+    position: relative;
+    max-width: 70%;
+      /* border:1px solid #0000DD; */
+    overflow-wrap: break-word;
+  }
+  .message-icon
+  {
+    clear: both;
+    float: left;
+    border-radius:20px; 
+    position: relative;   
+  }
+  .message-user {
+    float: right;
+    background:#18c0fd;
+    border:1px solid #ccc;
+    border-radius: 20px 20px 0 20px;
+    margin-right: 5px;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
   
-} */
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .animate__animated.animate__headShake{
+    --animate-duration: 0.7s;
+  }
+/* ----------------------calculator---------------------------------------- */
+.calculator-input
+{
+  padding: 5px;
+  margin: 10px;
+  background: green;
+  flex:1;
+}
+.calculator-body
+{
+  background-color: white;
+  border-radius: 10px;
+}
+.calculator-line
+{
+margin: 20px;
+position: relative;
+left:10%;
+margin-left:80px;
+}
 
+.calculator-final
+{
+  background-color: grey;
+  border-radius: 5px;
+  width: 250px;
+  position: relative;
+  left:25%;
+  margin: 40px 0;
+  padding: 10px;
+}
 
-
-
-
-@media(max-width:825px)
+/* -------------------------------- media query-------------------------------- */
+@media(max-width:700px)
 {
   div div h1
   {
     font-size: 30px;
   }
-  #widget-container
-  {
-    display:none;
-  }
-  /* .center-title
-  {
-    top:50%;
-   
-  } */
   .center-para{
     top:50%
   }
+  .chatbot-expanded
+  {
+    min-width: 100vw;
+    margin:0;
+    bottom: 0;
+    height: 80%;
+
+  }
+  .message
+  {
+    font-size: 25px;
+  }
+  .company-more-info
+  {
+    width: 100%;
+    left:0;
+  }
 }
-/* @media only screen and (max-width: 600px)
-{
-  .center-title{
-    top: 65%;
-  }
-  .center-button{
-    top:95%
-  }
+
+
+
+
+/* .fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 } */
