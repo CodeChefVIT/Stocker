@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+    <!-- !-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/allstyles.css"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<title>Stocker Calculator</title>
+</head>
+<body>
+
+
+                    <!-- --------------------------------NAVBAR---------------------------------------- -->
+         <nav class="navbar navbar-expand-md navbar-light text-success top">
+            <a class="navbar-brand" href="index.html">Stocker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Categories<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Graphical analysis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mutual fund caluclator</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">UserName</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="logout()" href="">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <!-- ----------------------------------content----------------------------------- -->
+
+       <div class="container">
+        <div class="jumbotron bg-danger">
+            <h3 class="display-3 text-center" style="font-size:50px">Mutual Funds Calculator</h3>
+        </div>
+       </div>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8 sm-12">
+                   <div class="calculator-body" style="border:1px solid yellow">
+                    <h4 class="text-center display-4">Returns calculator</h4>
+                    <form action="">
+                        <div class="calculator-line">               
+                            <p> Total Investment: <span ><strong>Rs.</strong></span><input type="text" placeholder="" class="calculator-input"></p>
+                         </div>
+                         <div class="calculator-line">               
+                             <p> Returns <input type="text" placeholder="" class="calculator-input"  > <span><strong>%</strong></span></p>
+                          </div>
+                          <div class="calculator-line">               
+                             <p> Time period: <input type="text" placeholder="" class="calculator-input"> <span  ><strong>Years</strong></span></p>
+                          </div>
+                          <button class="btn btn-lg btn-outline-success" type="button" style="left:30%;position:relative" onclick="calculate()" >Calculate Your returns!</button>
+                    </form>
+                    <div class="calculator-final">
+                        <h3>
+                            Final Value: <span></span>
+
+                        </h3>
+                    </div>
+              
+               </div>
+               </div>
+                   <div class="col-md-4 sm-12 text-white" style="border-left:1px solid darkred">
+                       <p>Mutual funds are one of the most popular avenues of investment in the Indian context. As of June 2019, the average assets under management (AuM) of the entire MF industry stands at a staggering Rs. 24.25 trillion, an over four-fold increase from Rs. 5.83 trillion in 2009.
+
+                        Though mutual fund investments are subject to market risks, the returns can be estimated reasonably accurately. You can use the free mutual fund return calculator from Groww to arrive at the amount of the expected returns. </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+
+
+
+            
+<!-- ----------------------------------footer---------------------------------------------------- -->
+<footer>
+    <div class="container-fluid" style="background: rgb(32, 32, 32); border-top: 1px solid black; height: fit-content; bottom: 0;margin: 0;">
+        <p style="margin: 0;">made by codechefvit</p>
+    </div>
+</footer>
+
+            <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://kit.fontawesome.com/34ffa1f212.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
