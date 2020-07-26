@@ -9,6 +9,8 @@
     <!-- !-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/allstyles.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
 
 <title>User profile</title>
 </head>
@@ -28,7 +30,7 @@
                         <a class="nav-link" href="#">Graphical analysis</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mutual fund caluclator</a>
+                        <a class="nav-link" href="calculator.html">Mutual fund caluclator</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
@@ -47,40 +49,28 @@
         <div class="container" style="padding-top:25px;">
             <div class="row">
                 <div class="col-md-9 sm-12">
-                    <div class="container text-white" style="border: 2px solid teal;">
-                        <h3>Interested Stocks:</h3>
-                        <div class="user-content">
-                                 <div class="row">
-                                    <div class="col-md-6 sm-12">
-                                        <div class="card text-white border-success company hvr-float">
-                                            <div class="card-body"><img src="" alt="">
-                                                <h5 class="card-title">company Name
-                                                            <span class="float-right hvr-icon-shrink" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus"></i></span></h5>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                            <a href="#" class="btn btn-success">More Info</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 sm-12">
-                                                    <div class="card text-white border-success company hvr-float">
-                                                        <div class="card-body"><img src="" alt="">
-                                                            <h5 class="card-title">company Name
-                                                                        <span class="float-right hvr-icon-shrink" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus"></i></span></h5>
-                                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                                        <a href="#" class="btn btn-success">More Info</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                          </div>
-            
+                    <div class="container text-white" >
+                        <h3>My Stocks:</h3>
+                        <hr style="background-color: red;">
+                        <div id="user-content-my-profile">
+                            <div class="company-more-info animate__animated animate__fadeInDown">
+                                <h4  class="text-danger text-center" style="padding: 5px;">Company name <span style="float: right; padding: 5px;" onclick="showMoreInfo()" class="hvr-grow" ><i class="fas fa-times"></i></span></h5></h4>
+                                    <hr style="background-color: white; margin: 5px;">
+                                    <p style="color: white; padding: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates, commodi quos dolorem vel atque aut repudiandae, expedita fuga saepe omnis illum tenetur sint corporis explicabo soluta architecto velit obcaecati?
+                                    </p>
+                            </div>
+                            
+                  
                                                                            
-                                                    </div>
-                                                </div>
+                                  </div>
+                                        </div>
                                             </div>
                                        
                                             <div class="col-md-3 sm-12">
-                                                <div class="container user-history text-white" style="border: 2px solid teal;">
-                                                    <h4>User history</h4>
+                                                <div class="container user-history text-white" >
+                                                    <h3>User history</h3>
+                                                    <hr style="background-color: red;">
+
                                                 </div>
                                                 
                                             </div>            
@@ -95,13 +85,15 @@
 
 
 
+        <!-- <div class="row"><div class="col-md-6 sm-12"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title text-center">Company Name</h5><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipi</p><button class="btn btn-outline-success text-white" onclick="showMoreInfo()">More Info</button></div></div></div> -->
+
 
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/profile.js"></script>
     <script src="https://kit.fontawesome.com/34ffa1f212.js" crossorigin="anonymous"></script>
     </body>
     </html>
