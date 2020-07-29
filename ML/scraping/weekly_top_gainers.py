@@ -17,4 +17,4 @@ for df in dfs[:-1]:
 
 df1 = df[['Company', '% Change']]
 print(df1)  
-df1.to_csv('weekly_top_gainers.csv', index=False)
+df.to_csv('weekly_top_gainers.csv', index=False)
