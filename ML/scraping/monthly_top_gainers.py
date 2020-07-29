@@ -14,6 +14,6 @@ dfs = pd.read_html('https://money.rediff.com/gainers/nse/monthly',header=0)
 for df in dfs[:-1]:
     print(df)
 
-df1 = df[['Company', '% Change']]
-print(df1)  
+df['% Change'] = df['% Change'].str.replace(' ', "")
+print(df)
 df.to_csv('monthly_top_gainers.csv', index=False)

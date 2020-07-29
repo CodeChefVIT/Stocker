@@ -12,9 +12,10 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 dfs = pd.read_html('https://money.rediff.com/gainers/nse/weekly',header=0)
-for df in dfs[:-1]:
+for df in dfs[:1]:
     print(df)
 
-df1 = df[['Company', '% Change']]
-print(df1)  
-df.to_csv('weekly_top_gainers.csv', index=False)
+
+df['% Change'] = df['% Change'].str.replace(' ', "")
+print(df)
+df.to_csv('weekly_top_gainers.csv',index=False)
