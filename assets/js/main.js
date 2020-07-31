@@ -31,7 +31,14 @@ function makeCards()
 
 makeCards()
 
-
+function destroy()
+{
+  var list=document.getElementsByClassName('row');
+  for(var i=0;i<list.length;++i)
+  {
+    list[i].remove();
+  }
+}
 
 
 
@@ -83,4 +90,3 @@ function chatbotToggle()
   });
 
   
-
