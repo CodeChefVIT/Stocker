@@ -5,7 +5,7 @@ Created on Wed Jul 29 23:52:33 2020
 
 @author: pranjal27bhardwaj
 """
-
+# This function will give the worst performing stocks of the day
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -21,6 +21,7 @@ def daily_losers():
     df1.to_csv('daily_top_losers.csv', index=False)
     
 daily_losers()
+
 
 def plot_daily_losers():
     plt.style.use('fivethirtyeight')
