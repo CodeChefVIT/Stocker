@@ -1,719 +1,1657 @@
-Company,Prev Close (Rs),Current Price (Rs),% Change
-Integra Garments,0.55,1.6,+190.91
-Jain Studios Ltd,2.4,5.4,+125.00
-Impex Ferro Tech Ltd,0.45,1.0,+122.22
-Reliance Com,1.55,3.3,+112.90
-Biofil Chemicals,12.8,24.85,+94.14
-Vikas Multicorp,5.05,9.4,+86.14
-Oriental Aromatics,188.6,348.9,+84.99
-Akash Infra-Projects,87.0,157.65,+81.21
-Balaxi Ventures,123.9,223.85,+80.67
-Mask Investments,33.1,59.25,+79.00
-IOL Chemicals and Ph,449.6,782.5,+74.04
-DCM Financial,0.95,1.65,+73.68
-Indo Count Inds.,37.15,64.0,+72.27
-5Paisa Capital,222.9,381.3,+71.06
-Xelpmoc Design and T,70.8,117.4,+65.82
-McLeod Russel,7.8,12.7,+62.82
-Universus Photo Imag,91.6,148.2,+61.79
-Kaushalya Infrastruc,0.65,1.05,+61.54
-Tanla Solutions,71.7,109.0,+52.02
-Vertoz Advertising,78.85,119.7,+51.81
-Ballarpur Ind.,1.45,2.2,+51.72
-Vikas Ecotech L,4.35,6.6,+51.72
-Majesco L,359.85,543.3,+50.98
-Intense Technologies,24.4,36.55,+49.80
-Matrimony.com,386.8,572.25,+47.94
-Dynemic Products,142.4,209.6,+47.19
-Naga Dhunseri Group,476.3,701.05,+47.19
-Laurus Labs,519.45,763.85,+47.05
-Venus Remedies L,58.55,86.0,+46.88
-Dishman Carbogen Amc,121.75,178.2,+46.37
-Eveready Industr,81.85,118.95,+45.33
-Paisalo Digital L,214.5,310.0,+44.52
-Panache Digilife,38.5,55.5,+44.16
-Pearl Polymers,15.3,22.05,+44.12
-IRB Infrastructure,88.55,126.8,+43.20
-RattanIndia Infra,3.75,5.35,+42.67
-Rana Sugars,4.25,6.05,+42.35
-Bigbloc Construction,29.6,42.05,+42.06
-Asahi Songwon Colors,148.05,210.05,+41.88
-Kellton Tech Solutio,15.6,21.95,+40.71
-Intellect Design,111.65,157.05,+40.66
-The United Nilgiri,242.15,339.35,+40.14
-Persistent Systems,635.1,887.8,+39.79
-Granules India L,202.6,282.75,+39.56
-Sagar Cements,334.45,466.15,+39.38
-Intrasoft Technologi,49.95,69.0,+38.14
-Au Small Finance Ban,543.5,746.4,+37.33
-Poly Medicure Lt,294.4,402.2,+36.62
-Shree Pushkar Chemic,89.1,121.65,+36.53
-Thyrocare Tech.,508.5,692.95,+36.27
-The Peria Karamalai,95.0,129.2,+36.00
-Sree Rayalaseema Hi-,118.95,161.35,+35.65
-Autoline Industries,19.9,26.95,+35.43
-Tarmat L,25.0,33.7,+34.80
-National Fertilizers,32.85,44.0,+33.94
-Satia Industries,73.3,97.65,+33.22
-BLS International Se,65.1,86.6,+33.03
-Hathway Cable & Data,31.7,42.05,+32.65
-IVP,37.8,50.05,+32.41
-NIIT Technologies,1409.2,1862.85,+32.19
-Pricol L,37.9,50.1,+32.19
-ITI,104.1,137.35,+31.94
-The Andhra Sugars,259.45,341.55,+31.64
-Infibeam Avenues,59.35,78.0,+31.42
-Aarti Drugs Ltd,1270.55,1668.4,+31.31
-Firstsource Solution,35.7,46.85,+31.23
-Bharat Rasayan,7459.15,9785.25,+31.18
-Birlasoft,89.45,116.75,+30.52
-MphasiS Ltd.,878.75,1142.05,+29.96
-Central Depository,270.7,351.25,+29.76
-Rain Industries,76.0,98.55,+29.67
-Infosys,735.95,954.15,+29.65
-MCX,1283.9,1663.9,+29.60
-Thangamayil Jeweller,259.25,335.7,+29.49
-Cosmo Films,313.15,405.4,+29.46
-Deepak Nitrite,475.05,614.9,+29.44
-Geekay Wires,68.65,88.85,+29.42
-Saksoft Ltd.,187.75,242.6,+29.21
-Caplin Point Lab,312.4,403.25,+29.08
-NOCIL Ltd.,82.9,106.85,+28.89
-PTC India Financial,12.55,16.15,+28.69
-Kingfa Science & Tec,362.65,466.3,+28.58
-Harrisons Malaya,71.35,91.65,+28.45
-Zensar Technologies,123.85,158.95,+28.34
-Suven Pharmaceutical,470.4,603.2,+28.23
-Camlin Fine Sciences,52.55,67.3,+28.07
-Rossell India,61.25,78.3,+27.84
-Jump Networks,59.2,75.5,+27.53
-Dhunseri Investments,162.8,207.45,+27.43
-Astec Lifesciences L,789.55,1003.4,+27.09
-Bannari Amman Su,1021.8,1293.95,+26.63
-Jayshree Tea,43.95,55.65,+26.62
-GTPL Hathway,67.0,84.8,+26.57
-Kopran Ltd,35.15,44.4,+26.32
-Wipro Ltd,219.65,277.0,+26.11
-Lakshmi Finance,41.65,52.5,+26.05
-Dixon Technologies,5758.9,7250.7,+25.90
-Zydus Wellness Ltd.,1275.75,1604.2,+25.75
-Sequent Scientific,91.65,114.65,+25.10
-Repco Home Finance L,122.55,153.1,+24.93
-Uflex Ltd.,209.55,261.5,+24.79
-Tejas Networks,47.9,59.75,+24.74
-HCL Technologies,556.85,694.4,+24.70
-Ramco Systems Lt,110.15,137.35,+24.69
-Mastek Li,399.0,496.95,+24.55
-Tech Mahindra,543.4,676.4,+24.48
-India Power Corp,8.85,11.0,+24.29
-Muthoot Finance,1086.05,1348.2,+24.14
-Bodal Chemicals,59.7,74.1,+24.12
-Edelweiss Fin. Ser,62.8,77.8,+23.89
-Shrenik L,40.25,49.85,+23.85
-Polyplex Corpn.,473.55,585.35,+23.61
-Garware Tech. Fibres,1368.3,1689.85,+23.50
-Meghmani Organics,51.4,63.4,+23.35
-Reliance Inds.,1704.1,2096.65,+23.04
-Salasar Techno Engin,158.2,194.5,+22.95
-Responsive Industrie,75.9,93.3,+22.92
-Sasken Technologies,481.0,590.6,+22.79
-MSTC Ltd.,122.2,149.9,+22.67
-L&T Infotech,1957.9,2400.45,+22.60
-Lincoln Pharmace,160.05,195.75,+22.31
-Cybertech System,41.7,51.0,+22.30
-Dr. Lal Pathlabs Ltd,1564.55,1910.3,+22.10
-Maha. Scooters,2504.55,3051.15,+21.82
-Apollo Hospitals,1349.85,1641.3,+21.59
-Apollo Micro Systems,104.15,126.45,+21.41
-Royal Orchid Hotels,53.05,64.4,+21.39
-Bharat Petroleum,374.0,453.8,+21.34
-Neuland Laborat,576.45,699.1,+21.28
-Rajratan Global Wire,216.7,262.7,+21.23
-Magnum Ventures Ltd.,4.5,5.45,+21.11
-SMS Pharmaceuticals,62.25,75.35,+21.04
-Bharat Forge,319.35,385.95,+20.85
-Saregama India Ltd.,426.8,515.5,+20.78
-Inventure Growth & S,14.25,17.2,+20.70
-Inspirisys Solutions,23.2,28.0,+20.69
-Allied Digital Servi,17.0,20.5,+20.59
-Bharat Dynamics,333.25,401.5,+20.48
-Kiri Industries,415.2,500.0,+20.42
-Manappuram Finance,151.35,181.95,+20.22
-Hinduja Global Solut,654.2,786.2,+20.18
-Nucleus Software,263.15,316.2,+20.16
-FIEM Industries,355.6,426.85,+20.04
-Sagardeep Alloys,111.0,133.2,+20.00
-Fineotex Chemical Lt,26.45,31.65,+19.66
-Allcargo Logistics,79.2,94.75,+19.63
-Poddar Pigments,151.0,180.5,+19.54
-Unichem Labs,175.1,209.15,+19.45
-TGB Banquets,3.6,4.3,+19.44
-Newgen Software Tech,149.25,178.25,+19.43
-Hikal Ltd.,125.15,148.85,+18.94
-Creative Peripherals,76.05,90.35,+18.80
-The Byke Hospitality,12.0,14.25,+18.75
-APL Apollo Tubes,1552.9,1842.95,+18.68
-Tata Communications,611.75,726.0,+18.68
-Hind. Food,561.65,666.4,+18.65
-The Anup Engineering,383.1,454.55,+18.65
-Guj. Amb.Exports,141.6,168.0,+18.64
-Deepak Fertilisers,118.55,140.65,+18.64
-Nelcast Ltd.,42.45,50.3,+18.49
-Mahi. & Mahi,510.7,604.85,+18.44
-Jocil Ltd.,149.9,177.4,+18.35
-SBI Cards and Pay,630.25,745.75,+18.33
-Gravita India Ltd.,41.95,49.6,+18.24
-JK Lakshmi Cement L,252.95,299.1,+18.24
-Simplex Infrastructu,28.0,33.1,+18.21
-PI Industries,1503.95,1776.8,+18.14
-Cimmco,16.6,19.6,+18.07
-Archidply Industries,23.35,27.55,+17.99
-Wanbury,24.2,28.55,+17.98
-Zen Technologies Ltd,50.05,59.05,+17.98
-KCP Ltd.,47.6,56.15,+17.96
-Everest Kanto Cylind,18.65,22.0,+17.96
-Cyient Ltd.,275.8,325.05,+17.86
-Hindustan Aeronautic,772.15,909.15,+17.74
-Balaji Amines Li,493.4,580.7,+17.69
-Jubilant Life Scienc,655.45,771.4,+17.69
-Ujjivan SmallFinance,29.85,35.05,+17.42
-Vadilal Indus.,521.4,612.1,+17.40
-RPG Life Sciences,265.75,311.65,+17.27
-Mahindra EPC Irrigat,139.25,163.3,+17.27
-Tribhovandas Bhimji,29.25,34.25,+17.09
-Titagarh Wagons Ltd.,34.15,39.95,+16.98
-Cholamandalam Invest,189.4,221.4,+16.90
-Eicher Motors,18334.3,21400.95,+16.73
-Steel Authority,30.4,35.45,+16.61
-Precision Camshafts,26.85,31.3,+16.57
-Vimta Labs Ltd.,85.0,99.0,+16.47
-MPS Ltd.,277.2,322.85,+16.47
-L&T Technology Serv,1283.05,1493.65,+16.41
-S H Kelkar & Company,63.3,73.6,+16.27
-HDFC Life Insurance,549.0,637.75,+16.17
-AGC Networks,292.65,339.9,+16.15
-Visaka Indus.,232.95,270.5,+16.12
-Westlife Development,307.85,357.25,+16.05
-ADF Foods Ltd.,292.45,339.3,+16.02
-Bajaj Finance L,2831.0,3284.25,+16.01
-Chambal Fertilis,141.95,164.6,+15.96
-IndusInd Bank,474.8,550.5,+15.94
-BASF India Lt,1137.8,1318.75,+15.90
-Affle (India),1460.25,1691.45,+15.83
-Chromatic India,0.95,1.1,+15.79
-Dhanuka Agritech Ltd,707.5,818.95,+15.75
-Metropolis Healthcar,1359.3,1571.85,+15.64
-JaiprakashAssociates,2.6,3.0,+15.38
-Bosch Ltd.,11418.1,13173.85,+15.38
-Hind. Copper,31.7,36.55,+15.30
-Agro Tech Foods Ltd.,520.05,599.5,+15.28
-Pilani Investmen,1354.1,1560.45,+15.24
-Seamec Ltd.,369.55,425.25,+15.07
-Marksans Pharma,32.2,37.05,+15.06
-Motilal Oswal Financ,591.8,680.05,+14.91
-JSW Steel,189.35,217.55,+14.89
-Bajaj Consumer Care,146.15,167.9,+14.88
-MindTree Ltd.,925.65,1062.75,+14.81
-Adani Enterprises Lt,156.25,179.1,+14.62
-BSE,443.75,508.25,+14.54
-Tin Plate Co.,118.3,135.5,+14.54
-Renaissance Global,223.45,255.9,+14.52
-The Grob Tea Company,411.7,471.2,+14.45
-Orbit Exports Li,59.35,67.9,+14.41
-Tata Steel,326.7,373.75,+14.40
-3M India Ltd.,18795.25,21501.65,+14.40
-Gufic BioSciences Lt,76.4,87.4,+14.40
-Goldiam Internat,102.65,117.4,+14.37
-Bombay Burmah,1051.65,1202.65,+14.36
-Weizmann,24.05,27.5,+14.35
-VLS Finance L,46.5,53.15,+14.30
-Natco Pharma,631.15,720.85,+14.21
-Sanghvi Movers L,58.65,66.95,+14.15
-Jindal St & Pwr,161.5,184.25,+14.09
-Onward Technolog,62.0,70.65,+13.95
-PTL Enterprises,33.85,38.55,+13.88
-Asian Granito India,210.2,239.35,+13.87
-Cochin Shipyard,300.3,341.95,+13.87
-Sharda Cropchem,263.35,299.85,+13.86
-Pokarna Ltd.,119.25,135.75,+13.84
-Gujarat Fluorochem,356.9,406.1,+13.79
-Cholamandalam Financ,295.3,335.85,+13.73
-Info Edge (India),2761.85,3140.2,+13.70
-Syngene Internationa,400.9,455.8,+13.69
-Tata Coffee Ltd.,81.95,93.1,+13.61
-PVR Ltd.,1001.7,1136.7,+13.48
-Spandana Sphoorty Fi,545.15,618.4,+13.44
-Apollo Sindoori Hote,456.6,517.6,+13.36
-Lumax Inds.,1084.55,1229.15,+13.33
-Gokaldas Exports,40.15,45.5,+13.33
-Shreyas Shipping & L,60.4,68.45,+13.33
-Jullundur Motor,21.55,24.4,+13.23
-MMTC Ltd.,16.8,19.0,+13.10
-I G Petrochemicals,138.25,156.35,+13.09
-Elgi Equipments,145.5,164.55,+13.09
-The Ramco Cements,635.1,718.05,+13.06
-Tree House Education,5.0,5.65,+13.00
-Phillips Carbon,88.45,99.9,+12.95
-AtlasCycles(Haryana),40.95,46.25,+12.94
-JM Financial Ltd.,70.0,79.05,+12.93
-Orissa Minerals Deve,1599.2,1805.15,+12.88
-Tube Investments,444.4,501.6,+12.87
-Aptech Ltd.,99.7,112.5,+12.84
-Neogen Chemicals,475.2,536.1,+12.82
-Inox Leisure,226.55,255.6,+12.82
-Bank of Maharash,11.0,12.4,+12.73
-Kirloskar Bros.,115.65,130.25,+12.62
-Kalyani Steel,196.9,221.6,+12.54
-SKM Egg Produc,31.6,35.55,+12.50
-Kamat Hotels (In,28.25,31.75,+12.39
-Somany Ceramics Ltd.,118.3,132.9,+12.34
-GMR Infrastructure L,20.05,22.5,+12.22
-Hindalco Indus.,146.2,164.05,+12.21
-Va Tech Wabag Ltd.,107.75,120.85,+12.16
-Thirumalai Chem.,48.9,54.8,+12.07
-Supreme Inds.,1127.7,1263.55,+12.05
-Datamatics Global Se,47.2,52.85,+11.97
-Agarwal Industrial C,70.4,78.8,+11.93
-Vardhman Polytex,7.55,8.45,+11.92
-Atul Ltd.,4550.85,5086.95,+11.78
-Fortis Healthcare,121.95,136.2,+11.69
-Sterlite Technologie,110.1,122.95,+11.67
-Hexa Tradex Ltd.,17.7,19.75,+11.58
-Balaji Telefilms Ltd,74.75,83.4,+11.57
-Kirloskar Ferrou,68.5,76.4,+11.53
-Hexaware Technologie,333.3,371.65,+11.51
-GIC Housing Fi,81.9,91.25,+11.42
-Ambuja Cements Ltd.,193.6,215.6,+11.36
-North Eastern Carry,12.35,13.75,+11.34
-Fine Organic Indus,1864.35,2075.7,+11.34
-Essel Propack Ltd.,180.0,200.35,+11.31
-Shalby,69.0,76.8,+11.30
-Dalmia Bharat Sugar,109.15,121.35,+11.18
-Kalpataru Power,216.55,240.55,+11.08
-GPT Infraprojects,23.5,26.1,+11.06
-Bajaj Electricals,392.8,435.85,+10.96
-Tata Power Co.,44.85,49.75,+10.93
-BGR Energy Systems,34.8,38.6,+10.92
-Rallis India,272.3,301.75,+10.82
-Themis Medicare Ltd.,343.6,380.65,+10.78
-BF Utilities Ltd.,204.1,226.1,+10.78
-GSFC,53.45,59.2,+10.76
-KIOCL,106.55,118.0,+10.75
-State Trading,45.6,50.5,+10.75
-Mirza International,43.75,48.45,+10.74
-Den Networks Ltd.,75.25,83.3,+10.70
-Cineline India,23.9,26.45,+10.67
-Huhtamaki PPL,203.45,225.1,+10.64
-TV Today Network Ltd,184.15,203.7,+10.62
-SMS Lifesciences Ind,298.95,330.5,+10.55
-Zodiac JRD MKJ L,24.4,26.95,+10.45
-Vardhman Holdings,1173.55,1295.9,+10.43
-Tata Consumer Produc,387.45,427.7,+10.39
-Apollo Pipes,316.1,348.95,+10.39
-Max Ventures and Ind,33.95,37.45,+10.31
-GE T&D India,75.2,82.9,+10.24
-Bhageria Industries,110.8,122.15,+10.24
-Autolite (I),16.8,18.5,+10.12
-Century Plyboards,118.1,130.05,+10.12
-Mold-Tek Packaging,200.75,220.9,+10.04
-Ebixcash World Money,428.9,471.3,+9.89
-Bharat Electroni,88.65,97.3,+9.76
-IDFC First Bank,25.7,28.2,+9.73
-Escorts Ltd.,1040.0,1140.8,+9.69
-Bajaj Auto Ltd.,2826.05,3099.3,+9.67
-Titan Company,949.85,1040.45,+9.54
-Premier Explos.,104.4,114.35,+9.53
-Ujjivan Financial,220.3,241.2,+9.49
-Excel Industries,702.3,768.9,+9.48
-Federal Bank,51.0,55.8,+9.41
-Narayana Hrudayalaya,268.0,293.2,+9.40
-GE Power India,449.05,491.25,+9.40
-Galaxy Surfacta.,1479.75,1618.65,+9.39
-Tata Consultancy,2082.15,2276.05,+9.31
-PTC India,48.5,53.0,+9.28
-SBI Life Insurance,806.45,881.1,+9.26
-Hester Biosciences L,1211.75,1324.0,+9.26
-S Chand & Company,43.25,47.25,+9.25
-LT Foods Ltd.,41.6,45.45,+9.25
-Ramco Industries,157.6,172.15,+9.23
-Bliss GVS Pharma,96.95,105.9,+9.23
-Can Fin Homes,337.85,369.05,+9.23
-Varroc Engineering,181.85,198.6,+9.21
-Tainwala Chem.,47.75,52.15,+9.21
-Navin Fluorine Inter,1622.0,1771.25,+9.20
-NCL Industries,70.25,76.7,+9.18
-Prakash Pipes,54.5,59.5,+9.17
-Munjal Showa Ltd,97.75,106.7,+9.16
-Hero MotoCorp,2546.95,2780.0,+9.15
-Capri Global Capital,168.3,183.7,+9.15
-Lumax Auto Technolog,86.4,94.3,+9.14
-Steel ExchangeIndia,25.75,28.1,+9.13
-SRF Ltd.,3605.7,3934.85,+9.13
-Dr. Reddy's Labs,3944.95,4302.2,+9.06
-Ashok Leyland,46.95,51.2,+9.05
-Pearl Global Industr,103.0,112.3,+9.03
-Thomas Cook (I),26.6,29.0,+9.02
-Emami Ltd.,220.8,240.6,+8.97
-Hubtown,10.05,10.95,+8.96
-Heritage Foods,259.2,282.35,+8.93
-Sterling Tools L,164.7,179.3,+8.86
-Ucal Fuel System,110.15,119.85,+8.81
-Gujarat Narmada Vall,153.25,166.7,+8.78
-Tata Steel BSL,20.5,22.3,+8.78
-Chennai Petro.,77.6,84.3,+8.63
-Sunflag Iron,37.2,40.4,+8.60
-UPL,425.2,461.75,+8.60
-EIH Associated,236.55,256.85,+8.58
-Sonata Software,238.6,258.9,+8.51
-Alpa Laboratories Lt,21.8,23.65,+8.49
-Indian Oil Corp,85.35,92.6,+8.49
-Axis Bank Ltd.,406.65,440.9,+8.42
-Pfizer Ltd.,3963.8,4296.75,+8.40
-Manali Petrochem,18.65,20.2,+8.31
-Shilpa Medicare L,475.4,514.85,+8.30
-Bajaj Finserv Ltd.,5845.15,6328.6,+8.27
-Sundaram Fasten.,374.3,405.0,+8.20
-Tamilnadu Petroprod,33.2,35.9,+8.13
-Hercules Hoists,75.3,81.4,+8.10
-Dhunseri Tea & Indus,159.3,172.2,+8.10
-Snowman Logistics Lt,29.4,31.75,+7.99
-Hind. Composites,155.95,168.4,+7.98
-Container Corpor,417.9,450.9,+7.90
-Nelco Ltd,194.7,210.05,+7.88
-Voltas Ltd.,546.45,589.45,+7.87
-Alkyl Amines Che,2107.25,2272.65,+7.85
-Kanani Industries Lt,3.85,4.15,+7.79
-Bharat Heavy Ele,35.7,38.45,+7.70
-Tata Motors Ltd.,98.25,105.75,+7.63
-Tata Steel Long Prod,244.0,262.5,+7.58
-Control Print Ltd.,198.95,214.0,+7.56
-Indian Metal & F,158.85,170.8,+7.52
-Shree Digvijay,54.05,58.1,+7.49
-Eros International M,18.1,19.45,+7.46
-Indian Hume Pipe,159.35,171.2,+7.44
-Aegis Logistics Ltd.,176.5,189.6,+7.42
-Alembic Pharmaceutic,912.8,980.4,+7.41
-NMDC Ltd.,81.15,87.15,+7.39
-UltraTech Cement,3893.55,4180.95,+7.38
-Amrutanjan Health Ca,361.0,387.6,+7.37
-Accelya Solutions In,920.0,987.75,+7.36
-Tips Industries,136.15,146.15,+7.34
-Banco Products,73.25,78.55,+7.24
-Indraprastha Med,51.85,55.6,+7.23
-Alkem Laboratories,2368.3,2539.2,+7.22
-Emmbi Industries,67.25,72.1,+7.21
-D-Link (India),82.65,88.6,+7.20
-Supreme Petroche,167.1,179.1,+7.18
-JK Cement,1379.0,1477.95,+7.18
-SBI,178.45,191.2,+7.14
-TRF Ltd,74.75,80.05,+7.09
-eClerx Services,446.25,477.75,+7.06
-Chemfab Alkalis,129.7,138.8,+7.02
-Aarvi Encon,29.9,32.0,+7.02
-Brooks Laboratories,30.7,32.85,+7.00
-HDFC,1754.65,1877.3,+6.99
-Endurance Technologi,870.75,931.5,+6.98
-Action Construction,54.45,58.25,+6.98
-KSB Ltd,467.15,499.4,+6.90
-Godrej Agrovet L,430.8,460.35,+6.86
-AXISCADES Engineer,51.15,54.65,+6.84
-TeamLease Service,1680.5,1795.15,+6.82
-Dredging Corpora,252.05,269.15,+6.78
-Indiabulls Real Esta,48.8,52.1,+6.76
-Equitas Holdings Ltd,49.55,52.9,+6.76
-Dalmia Bharat L,673.3,718.75,+6.75
-Vishnu Chemicals,126.55,134.95,+6.64
-IndiaMART InterMESH,2325.1,2479.2,+6.63
-TCI Express,668.2,712.2,+6.58
-Gulshan Polyols Ltd.,34.45,36.7,+6.53
-TVS Motor Co. Ltd.,378.35,402.95,+6.50
-Ahluwalia Contra,205.7,219.0,+6.47
-VIP Indus.,257.65,274.3,+6.46
-Sterling and Wilson,219.65,233.85,+6.46
-Jai Corp Ltd.,83.95,89.35,+6.43
-Cipla,640.25,681.25,+6.40
-Divi's Lab,2278.9,2423.65,+6.35
-Hind. Zinc,195.95,208.35,+6.33
-Superhouse Ltd.,80.9,86.0,+6.30
-Oriental Carbon,736.85,783.15,+6.28
-TVS Srichakra Lt,1357.95,1442.45,+6.22
-Mayur Uniquoters,205.85,218.6,+6.19
-Eimco Elecon Ind,293.7,311.85,+6.18
-Srikalahasthi Pipes,177.1,188.0,+6.15
-Ipca Laboratorie,1674.4,1776.4,+6.09
-Bajaj Holdings & Inv,2543.0,2697.85,+6.09
-Career Point,138.9,147.15,+5.94
-Maruti Suzuki India,5838.3,6185.15,+5.94
-ACC,1332.25,1410.95,+5.91
-Aster DM Healthcare,123.85,131.15,+5.89
-VST Tillers Tr,1325.6,1403.0,+5.84
-Berger Paints I,493.9,522.65,+5.82
-Reliance Naval,2.6,2.75,+5.77
-IDFC L,18.4,19.45,+5.71
-Liberty Shoes Li,123.45,130.45,+5.67
-DCM Shriram,317.35,335.3,+5.66
-ABB Power Products,840.25,887.45,+5.62
-Tata Elxsi Ltd.,897.3,947.05,+5.54
-The Indian Card Clot,88.8,93.7,+5.52
-ICICI Pru Life,425.8,449.25,+5.51
-Walchandnagar,50.9,53.7,+5.50
-Vishal Fabrics Ltd.,258.0,272.0,+5.43
-Sirca Paints India,204.6,215.7,+5.43
-Dilip Buildcon Ltd.,272.8,287.45,+5.37
-Hind. Petrol,216.75,228.35,+5.35
-Bandhan Bank,319.3,336.35,+5.34
-Centum Electronics L,297.55,313.4,+5.33
-HIL,1165.05,1227.0,+5.32
-Sandhar Technologies,195.55,205.95,+5.32
-Britannia Ind.,3603.8,3794.7,+5.30
-DCB Bank,75.7,79.7,+5.28
-Aurobindo Pharma,771.7,811.95,+5.22
-TCPL Packaging,266.65,280.5,+5.19
-SIL Investments Ltd.,141.1,148.4,+5.17
-Mahindra Logistics L,274.7,288.9,+5.17
-Aditya Birla Money L,33.95,35.7,+5.15
-Arvind SmartSpaces,74.05,77.85,+5.13
-Kanoria Chemical,33.25,34.95,+5.11
-Madhya Bharat Agro,59.85,62.9,+5.10
-Ajanta Pharma Lt,1417.15,1489.3,+5.09
-Dabur India,465.95,489.6,+5.08
-Strides Pharma Scien,409.6,430.4,+5.08
-Shriram Trans.Fi,689.6,724.55,+5.07
-Nesco Ltd.,426.2,447.45,+4.99
-PSP Projects,389.95,409.05,+4.90
-India Tourism De,209.45,219.65,+4.87
-Suprajit Enginee,144.45,151.45,+4.85
-TPL Plastech Ltd.,111.25,116.65,+4.85
-Kajaria Ceramics,392.4,411.2,+4.79
-Siemens Ltd.,1096.65,1148.8,+4.76
-Fairchem Speciality,564.45,591.3,+4.76
-Rollatainers Ltd,2.1,2.2,+4.76
-Arman Financial Serv,445.1,465.85,+4.66
-Mukta Arts Ltd.,23.65,24.75,+4.65
-WelspunInvestments,215.0,225.0,+4.65
-Muthoot Capital,366.2,383.15,+4.63
-Birla Corporation Lt,578.85,605.6,+4.62
-CARE Ratings,419.45,438.7,+4.59
-Vishwaraj Sugar Ind,78.75,82.3,+4.51
-GHCL,137.3,143.4,+4.44
-Lasa Supergenerics,43.9,45.85,+4.44
-Kesoram Industri,34.05,35.55,+4.41
-National Alumini,31.85,33.25,+4.40
-Kaveri Seed Company,573.8,599.0,+4.39
-Welspun Corp,79.75,83.25,+4.39
-Linde India,613.1,639.95,+4.38
-Piramal Enterprises,1363.8,1423.55,+4.38
-Crompton Greaves Con,238.65,249.05,+4.36
-M M Forgings Ltd.,184.0,192.0,+4.35
-Oracle Financial Ser,2863.75,2987.8,+4.33
-Amara Raja Batt.,650.4,678.5,+4.32
-Nath Bio-Genes,320.6,334.2,+4.24
-Sun Pharma.,472.95,493.0,+4.24
-Summit Securities,340.05,354.45,+4.23
-Nilkamal Ltd.,1142.6,1190.95,+4.23
-Vaibhav Global,1276.2,1329.6,+4.18
-Lemon Tree Hotels,22.8,23.75,+4.17
-Sun Pharma Advanced,162.4,169.15,+4.16
-Ashiana Housing Ltd.,59.2,61.65,+4.14
-Texmaco Rail & Engin,24.3,25.3,+4.12
-Rashtriya Chemicals,46.4,48.3,+4.09
-Mangalore Refine,36.65,38.15,+4.09
-Vidhi Specialty Food,67.85,70.6,+4.05
-Welspun India,37.1,38.6,+4.04
-Blue Dart Expres,2042.1,2124.3,+4.03
-CreditAccess Grameen,522.25,543.2,+4.01
-KEI Industries,348.8,362.6,+3.96
-Century Textiles,294.5,306.15,+3.96
-Asian Hotels (North),53.0,55.1,+3.96
-Power Grid Corpo,174.85,181.75,+3.95
-Shakti Pumps (In,165.2,171.7,+3.93
-Honda India Power,966.05,1003.75,+3.90
-KPIT Technologies,63.0,65.4,+3.81
-Airan Ltd.,11.85,12.3,+3.80
-Adroit Infotech,7.9,8.2,+3.80
-Exide Inds.,148.2,153.8,+3.78
-BEML Ltd.,638.65,662.65,+3.76
-Max Financial Servic,542.0,562.3,+3.75
-Godawari Power & Isp,167.95,174.25,+3.75
-Oil India Ltd.,93.65,97.15,+3.74
-DIC India,333.3,345.7,+3.72
-HSIL Ltd.,52.45,54.4,+3.72
-Nectar Lifesciences,21.55,22.35,+3.71
-NLC India L,46.15,47.85,+3.68
-Chembond Chemica,142.9,148.15,+3.67
-Aarti Ind. Ltd,931.4,965.55,+3.67
-Tide Water Oil,4072.6,4219.15,+3.60
-Advanced Enzyme Tech,170.65,176.75,+3.57
-GRP L,634.75,657.3,+3.55
-Polycab India,789.3,817.35,+3.55
-Kirloskar Oil Engine,106.65,110.4,+3.52
-PNB Housing Finance,207.55,214.8,+3.49
-Ester India,51.55,53.35,+3.49
-Crisil,1618.85,1674.85,+3.46
-Elecon Engg.,26.1,27.0,+3.45
-NBCC (India),23.25,24.05,+3.44
-Menon Bearings L,37.9,39.2,+3.43
-Mangalam Cement,187.0,193.4,+3.42
-KEC International Lt,270.65,279.9,+3.42
-Vedanta,106.4,110.0,+3.38
-Karnataka Bank,41.55,42.95,+3.37
-Kitex Garments,108.25,111.85,+3.33
-Rane Holdings Ltd.,428.7,442.95,+3.32
-PNB Gilts Ltd.,36.1,37.3,+3.32
-Indiabulls Housing F,207.15,213.9,+3.26
-Jubilant Industries,104.3,107.7,+3.26
-Wonderla Holidays Lt,131.85,136.15,+3.26
-Coromandel Internati,755.75,780.35,+3.26
-LIC Housing Fi,265.05,273.45,+3.17
-Asian Paints Ltd.,1687.45,1740.15,+3.12
-Reliance Ind.Inf,401.7,414.15,+3.10
-NCC,29.15,30.05,+3.09
-Anjani Portland,137.3,141.5,+3.06
-JK Tyre & Industries,64.1,66.05,+3.04
-Jindal Stainless (Hi,70.1,72.2,+3.00
-Subros Ltd.,170.3,175.35,+2.97
-DFM Foods Limi,180.75,186.1,+2.96
-Univastu India,32.1,33.05,+2.96
-Akzo Nobel India,1834.2,1888.05,+2.94
-EID Parry,276.75,284.9,+2.94
-Colgate Palm.,1406.7,1447.75,+2.92
-Marico Ltd.,351.9,362.15,+2.91
-Sarda Energy & Miner,165.25,170.05,+2.90
-Lakshmi Machines,2851.85,2934.55,+2.90
-Deep Industries,72.6,74.7,+2.89
-Global Vectra Helico,57.3,58.95,+2.88
-Triveni Eng.&Ind.Ltd,54.5,56.05,+2.84
-VST Industries,3133.35,3221.6,+2.82
-V Mart Retail,1740.8,1789.3,+2.79
-ICICI Lombard Gen.,1266.6,1301.9,+2.79
-Mazda Ltd.,306.15,314.7,+2.79
-Century Enka,175.45,180.35,+2.79
-Brigade Enterprises,135.95,139.7,+2.76
-Himatsingka Seid,62.55,64.25,+2.72
-Thomas Scott (India),5.55,5.7,+2.70
-Ramky Infrastructure,35.3,36.25,+2.69
-P&G Health,4069.9,4177.65,+2.65
-Astra Microwave,105.75,108.55,+2.65
-Balmer Lawrie &,109.7,112.6,+2.64
-Healthcare Global En,122.8,126.0,+2.61
-KRBL Ltd.,246.1,252.5,+2.60
-Heidelberg Cement In,177.1,181.7,+2.60
-Schaeffler India,3567.2,3659.3,+2.58
-Jaiprakash Power Ven,1.95,2.0,+2.56
-Tata Metaliks,482.0,494.1,+2.51
-Tera Software,24.0,24.6,+2.50
-AIA Engineering,1606.95,1646.4,+2.45
-MOIL Ltd.,140.8,144.25,+2.45
-Tantia Constructions,2.1,2.15,+2.38
-Foseco India Lim,1022.6,1046.85,+2.37
-Timken India Ltd,950.15,972.6,+2.36
-SKIL Infrastructure,4.25,4.35,+2.35
-Amber Enterprises,1437.85,1471.65,+2.35
-Hindustan Unilever L,2180.0,2231.3,+2.35
-Greenply Industr,84.1,86.05,+2.32
-Varun Beverages Ltd.,680.95,696.75,+2.32
-Orient Press Ltd,76.1,77.85,+2.30
-Delta Corp Ltd.,86.8,88.8,+2.30
-Jyothy Labs,117.5,120.2,+2.30
-Adani Gas,152.6,156.05,+2.26
-MTNL,9.1,9.3,+2.20
-Apollo Tyres,108.0,110.35,+2.18
-ICRA Ltd.,2485.85,2539.85,+2.17
-Cadila Healthcar,353.1,360.75,+2.17
-Shree Rama Newsprint,16.1,16.45,+2.17
-ISMT Ltd.,4.65,4.75,+2.15
-India Motor Part,509.1,520.0,+2.14
-Prime Focus,25.7,26.25,+2.14
-Kotak Mahindra Bank,1360.45,1389.45,+2.13
-Minda Industries,274.2,280.05,+2.13
-Cummins India Lt,392.35,400.65,+2.12
-Lokesh Machines,22.3,22.75,+2.02
-NHPC,20.0,20.4,+2.00
-Commercial Engineers,12.75,13.0,+1.96
-J B Chemicals & Phar,707.45,721.0,+1.92
-Sadbhav Infrastructu,15.8,16.1,+1.90
-Time Technoplast Ltd,37.45,38.15,+1.87
-Prime Securities,45.7,46.55,+1.86
-Apcotex Industries L,121.2,123.45,+1.86
-Godrej Properties Lt,867.1,883.15,+1.85
-Selan Exploratio,101.3,103.15,+1.83
-RBL Bank,173.5,176.65,+1.82
-Cantabil Retail Indi,288.05,293.2,+1.79
-Man Industries I,45.4,46.2,+1.76
-P&G Hygiene&Health,10151.65,10329.45,+1.75
-Vinati Organics,964.2,981.0,+1.74
-Phoenix Mills,584.95,595.0,+1.72
-NACL Industries L,38.5,39.15,+1.69
-Gulf Oil Lubricants,569.95,579.6,+1.69
-TCI Ltd.,168.75,171.6,+1.69
-ICICI Securities,469.85,477.7,+1.67
-Indostar Capital Fin,258.35,262.65,+1.66
-Sangam India Ltd,48.45,49.25,+1.65
-Sobha,226.9,230.65,+1.65
-OnMobile Global Ltd.,29.05,29.5,+1.55
-CSB Bank,187.15,190.0,+1.52
-Guj. Mineral Dev,39.95,40.55,+1.50
-Whirlpool of Ind,2074.8,2105.25,+1.47
-Biocon,390.1,395.8,+1.46
-Harita Seating Syst.,365.05,370.35,+1.45
-Oricon Enterprises L,17.2,17.45,+1.45
-Nxtdigital L,392.1,397.7,+1.43
-Esab India,1402.0,1421.65,+1.40
-Repro India Ltd.,384.95,390.25,+1.38
-Safari Indus.,366.0,371.05,+1.38
-SJVN Ltd.,21.8,22.1,+1.38
-Kapston Facilities,88.1,89.3,+1.36
-TV18 Broadcast,33.75,34.2,+1.33
-Ganesha Ecosphere,222.45,225.35,+1.30
-Panama Petrochem,42.15,42.7,+1.30
-Gillette India Ltd.,4982.6,5046.35,+1.28
-India Glycols,272.35,275.55,+1.17
-Gabriel India,86.55,87.55,+1.16
-Xchanging Solutions,47.3,47.85,+1.16
-WABCO India,6880.15,6958.6,+1.14
-Bharti Airtel,559.85,566.2,+1.13
-NRB Bearings Lim,77.55,78.4,+1.10
-Prince Pipes & Fitti,108.85,110.05,+1.10
-Rail Vikas Nigam,18.85,19.05,+1.06
-Precision Wires,100.1,101.15,+1.05
-ITC Ltd.,194.65,196.7,+1.05
-GMM Pfaudler Ltd,4090.15,4126.65,+0.89
-Puravankara,40.25,40.6,+0.87
-Indian Energy Exchan,179.75,181.2,+0.81
-Oriental Hotels,19.25,19.4,+0.78
-Tata Chemicals,310.05,312.4,+0.76
-Hi-Tech Pipes Ltd.,107.6,108.4,+0.74
-CCL Products India,234.6,236.3,+0.72
-Patel Engg. Ltd.,13.95,14.05,+0.72
-NIIT Ltd.,94.5,95.15,+0.69
-Sumitomo Chemical,273.8,275.65,+0.68
-Indoco Remedies,203.8,205.05,+0.61
-Revathi Equipment Lt,388.95,391.3,+0.60
-Orient Abrasives,16.85,16.95,+0.59
-Navkar Corporation L,26.15,26.3,+0.57
-FDC Ltd.,279.6,281.05,+0.52
-Guj. Sidhee Ceme,29.65,29.8,+0.51
-Surya Roshni Ltd,117.75,118.35,+0.51
-BF Investment Ltd.,307.75,309.3,+0.50
-Cera Sanitaryware L,2210.25,2220.8,+0.48
-Radico Khaitan Ltd.,373.5,375.3,+0.48
-Torrent Pharmac,2372.1,2383.05,+0.46
-Sreeleathers Ltd.,124.95,125.5,+0.44
-SundaramBrakeLining,219.05,219.95,+0.41
-Deccan Cements,257.75,258.75,+0.39
-TCI Developers Ltd.,274.05,275.1,+0.38
-SML Isuzu Ltd.,385.5,386.9,+0.36
-Redington (India) Lt,87.85,88.15,+0.34
-Expleo Solutions,272.05,272.95,+0.33
-Alicon Castalloy,251.15,251.9,+0.30
-DB Corp,74.1,74.3,+0.27
-Asian Hotels (East),136.45,136.8,+0.26
-Shriram City Uni,671.4,672.9,+0.22
-McDowell Holdings Lt,24.85,24.9,+0.20
-Indo Tech Transforme,94.75,94.9,+0.16
-City Union Bank,121.3,121.5,+0.16
-Great Eastern,212.25,212.6,+0.16
-Bal Pharma Ltd,43.25,43.3,+0.12
-Network 18 Media & I,40.8,40.85,+0.12
-Aditya Birla Fashion,125.3,125.35,+0.04
-Sanofi India,7877.25,7879.95,+0.03
+Company,% Change
+Source Natural Foods,+149.82
+CG Power and Indust,+135.55
+Toyam Industries,+126.05
+Dhanvarsha Finvest,+120.03
+Kaushalya Infrastruc,+117.86
+GBL Industries,+111.11
+PremierLtd.,+103.63
+Tirupati Tyres,+101.01
+Gemstone Invest,+97.87
+DRA Consultants,+97.57
+Softsol India,+96.15
+Esha Media Research,+94.96
+Aarti Surfactants,+94.13
+Biopac India,+92.96
+National Steel and A,+92.86
+ARC Finance,+91.89
+Ramco Systems Lt,+91.74
+Kellton Tech Solutio,+87.59
+Maxgrow India,+87.37
+Kachchh Minerals Ltd,+87.20
+Optiemus Infracom,+85.19
+Global Offshore Ser,+84.32
+Axtel Industries,+83.84
+CG-VAK Software,+83.31
+Indbank Merchant,+81.82
+HDIL,+80.69
+MSR India,+78.75
+IEL Ltd,+77.78
+Standard Surfact,+77.63
+Saras.Commercial,+76.23
+Bhagawati Oxygen,+75.53
+Gajra Bevel Gear,+75.00
+GVK Power & Infrastr,+74.37
+Xtglobal Infotech,+74.25
+Orient Tradelink,+73.02
+Supremex Shine Steel,+72.14
+Apollo Finvest,+71.55
+Rap Media,+70.63
+Prince Pipes & Fitti,+70.10
+Simran Farms Lim,+69.55
+Transglobe Foods,+69.45
+Hindustan Bio Scienc,+69.41
+Mangalam Drugs,+68.56
+Pooja Entertainment,+68.31
+ISMT Ltd.,+67.48
+Titan Biotech Ltd.,+66.84
+DFM Foods Limi,+66.04
+Emerald Leasing Fin,+65.95
+Va Tech Wabag Ltd.,+65.41
+Butterfly Gandhima,+65.00
+GayatriSugars,+64.84
+Vikram Thermo (I,+64.66
+Nalin Lease Fina,+64.29
+3i Infotech,+64.19
+Ashapura Min. Lt,+63.66
+Tanla Solutions,+63.39
+Indiabulls Ventures,+63.15
+Globus Spirits Ltd.,+62.17
+Vivimed Labs,+61.99
+VIP Clothing,+61.75
+Pasari Spinning,+61.74
+Pratiksha Chemic,+61.65
+Anjani Foods,+61.54
+Real Strips,+61.52
+Bombay Rayon Fashion,+60.77
+Expleo Solutions,+60.38
+Duke Offshore Lt,+60.31
+Adani Green Energy,+59.49
+Jayshree Chem.,+59.42
+Emco Ltd.,+58.82
+AK Spintex L,+58.36
+BLB Ltd.,+58.31
+Akme Star Housing,+58.30
+Aarey Drugs & Ph,+58.25
+Genesys Int.Corp.,+58.20
+eClerx Services,+57.95
+E-Land Apparel,+56.80
+McLeod Russel,+56.67
+Lancer Container Lin,+56.55
+Shahlon Silk Indust,+55.88
+Emami Ltd.,+55.24
+Phaarmasia Ltd.,+54.99
+Hind. Flurocarbo,+54.90
+Shree Rama Multi,+54.67
+HLE Glasscoat,+54.18
+Biofil Chemicals,+53.94
+Adani Enterprises Lt,+53.53
+Anubhav Infrastructu,+53.18
+Vikas Multicorp,+52.98
+BCC Fuba India,+52.75
+Rossell India,+52.63
+Prime Focus,+52.61
+Arex Industries Ltd.,+52.25
+Tips Industries,+51.84
+JHS Svendgaard Labor,+51.70
+SEL Manufacturing Co,+51.65
+Vivid Global Industr,+51.44
+Wardwizard Innovatio,+51.36
+Affle (India),+51.33
+HIM Teknoforge,+51.08
+Shangar Decor,+50.72
+Zenith Healthcare,+50.56
+Digicontent,+50.47
+Praveg Communication,+50.33
+Xelpmoc Design and T,+50.09
+Dish TV India Ltd.,+49.69
+Indsil Hydro Power a,+49.28
+Roxy Exports,+49.26
+IMP Powers,+49.26
+Medico Intercontinen,+49.01
+LancorHoldings Ltd,+48.87
+Unique Organics,+48.72
+AvanceTechnologies,+48.65
+IFB Industries,+48.54
+Mukand Ltd.,+48.53
+Dynamatic Techno,+48.51
+KPI Global Infra,+48.51
+Danlaw Technologies,+48.31
+Zee Entertainment En,+48.27
+Polymechplast Ma,+48.24
+Technocraft Industri,+47.52
+Ind-Swift L,+47.50
+Usha Martin Ltd.,+47.21
+B2B Soft.Tech.Ltd.,+46.92
+Nucleus Software,+46.75
+Ceinsys Tech,+46.62
+Modi Naturals,+46.53
+Zee Media Corp,+46.23
+Nxtdigital L,+46.17
+Essar Shipping,+46.05
+Innovative Tech,+45.98
+Sika Interplant,+45.73
+Vodafone Idea L,+45.58
+Shriram City Uni,+45.46
+Manali Petrochem,+45.18
+Trigyn Technolog,+44.86
+Natural Capsules,+44.77
+Venky's (India) Ltd.,+44.67
+Capital Trade Links,+44.62
+Garware Syntheti,+44.44
+Monnet Ispat & Energ,+44.27
+Rollatainers Ltd,+44.23
+Ritesh Internati,+44.06
+ASM Technologies Ltd,+43.99
+Vedavaag Systems,+43.93
+California Softw,+43.85
+MBL Infrastructures,+43.82
+Aksh Optifibre,+43.57
+Bhartiya Interna,+43.50
+Vivo Bio Tech Ltd.,+43.50
+PTC Industries,+43.33
+Paul Merchants,+43.31
+India Home Loan,+42.97
+Banas Finance Lt,+42.93
+Shilchar Technologie,+42.80
+Omkar Speciality Che,+42.63
+Varroc Engineering,+42.60
+NGL Fine-Chem Li,+42.59
+Ausom Enterprise,+42.36
+Ashok Leyland,+42.35
+Mindteck (India),+42.24
+Excel Realty N Infra,+42.11
+KM Sugar Mills,+41.92
+Regency Investments,+41.90
+Anisha Impex Ltd.,+41.69
+Anuh Pharma Ltd,+41.68
+Continental Cont,+41.43
+SKM Egg Produc,+41.41
+Vitesse Agro L,+41.35
+Atharv Enterprises,+40.85
+TCPL Packaging,+40.82
+IDFC L,+40.74
+Ganga Papers India L,+40.55
+Zicom Electronic,+40.27
+McNally Bharat E,+40.21
+PCS Technology,+40.05
+Hanman Fit,+39.89
+NHC Foods,+39.82
+Sheetal Cool Product,+39.76
+Balaji Amines Li,+39.69
+Racl Geartech,+39.60
+Tirupati Starch,+39.54
+DiGiSPICE Technologi,+39.54
+Kaira Can Co.,+39.52
+Pee Cee Cosma,+39.49
+G S Auto Interna,+39.34
+Subros Ltd.,+39.20
+Vijay Textiles L,+39.18
+Vinaditya Trading Co,+38.89
+Navkar Builders,+38.82
+TGB Banquets,+38.76
+Megasoft Ltd.,+38.65
+Dhoot Industrial,+38.64
+United Drilling Tool,+38.55
+Alkyl Amines Che,+38.03
+Punjab Chemicals and,+38.02
+Bharat Seats,+37.94
+Emami Realty,+37.67
+FIEM Industries,+36.85
+Everest Kanto Cylind,+36.77
+PNB Housing Finance,+36.63
+S P Apparels Ltd.,+36.20
+Kunststoffe Inds,+36.19
+Confidence Finance,+36.17
+Shilp Gravures L,+35.80
+Kallam Textiles,+35.45
+Richirich Inventures,+35.36
+SPML Infra,+35.26
+Goldstone Tech,+35.23
+NDR Auto Components,+35.11
+Somi Conveyor Beltin,+34.87
+Jamna Auto Inds.,+34.76
+Odyssey Technolo,+34.74
+Dhampure Specialty S,+34.72
+IFGL Refractories,+34.55
+KPT Industries,+34.54
+RattanIndia Power,+34.48
+Allsec Technologies,+34.31
+Ramkrishna Forgings,+34.25
+Godawari Power & Isp,+34.14
+Shivam Autotech Ltd.,+34.11
+Pankaj Piyush Trade,+33.98
+Apcotex Industries L,+33.95
+Sahara Housingfina C,+33.86
+Omax Auto,+33.82
+Acrysil Ltd.,+33.80
+IndiaMART InterMESH,+33.76
+I G Petrochemicals,+33.62
+Sharda Motor Ind,+33.55
+Supreme Holdings,+33.52
+High Energy Bat.,+33.46
+Oricon Enterprises L,+33.23
+Joindre Capital,+33.19
+Wonderla Holidays Lt,+33.18
+Shukra Pharma,+33.15
+GMM Pfaudler Ltd,+33.14
+S Chand & Company,+33.00
+InterGlobe Aviation,+32.97
+Sportking India,+32.96
+Bhansali Engg.Po,+32.93
+Bambino Agro Ind,+32.84
+PPAP Automotive,+32.63
+Valiant Communic,+32.59
+Jindal Poly Investme,+32.50
+Atlas Jewellery,+32.48
+Premier Synth.,+32.48
+Reliance Naval,+32.43
+Concord Drugs,+32.31
+Virat Crane Indu,+32.29
+Chandni Textiles Eng,+32.22
+Shiva Global Agro,+32.22
+Cambridge Technology,+32.20
+Firstobject Technolo,+32.16
+Panama Petrochem,+32.07
+Simbhaoli Sugars,+32.06
+Vasundhara Rasayans,+32.01
+Mahamaya Steel Indus,+31.81
+Bharat Wire Ropes Lt,+31.68
+Amines & Plast.,+31.64
+Uniply Decor,+31.61
+Inox Wind Ltd.,+31.61
+ARSS Infrastructure,+31.58
+Mas Financial Servic,+31.50
+Anant Raj Ltd.,+31.36
+Gulshan Polyols Ltd.,+31.28
+CESC Ventures,+31.23
+Indian Hotels Co,+31.15
+Rohit Ferro-Tech,+31.00
+Setco Automotive,+31.00
+Commercial Engineers,+30.83
+APM Finvest,+30.77
+Sumedha Fiscal S,+30.77
+Nikhil Adhesives,+30.76
+OM Metals Infraproje,+30.71
+VBC Ferro Allo,+30.65
+Rexnord Electron,+30.61
+Indag Rubber,+30.52
+RS Software (India),+30.29
+Palred Technologies,+30.20
+Tube Investments,+30.17
+Parvati Sweetners,+30.16
+Sanghvi Forging & En,+30.07
+Alps Industries,+30.00
+Indo Rama Synth.,+30.00
+Almondz Global Secur,+29.98
+EIH Ltd.,+29.97
+Indosolar Ltd.,+29.91
+Kopran Ltd,+29.86
+Educomp Solutions,+29.85
+Kabra Extrusion,+29.79
+Ortin Laborator.,+29.74
+CMI L,+29.72
+VST Tillers Tr,+29.64
+Pankaj Polymers,+29.62
+ABM Knowledgeware,+29.45
+Precision Wires,+29.37
+Bharat Gears,+29.24
+Nila Infrastructures,+29.11
+Alufluoride Ltd.,+29.10
+Arman Financial Serv,+29.01
+Simplex Realty,+29.00
+Emkay Global Financi,+28.98
+JSW Energy Ltd.,+28.95
+Steel ExchangeIndia,+28.87
+Remsons Industri,+28.80
+Orient Bell,+28.79
+Indian Toners,+28.72
+Shaily Engineering P,+28.64
+Ginni Filaments,+28.60
+Vadilal Enterprises,+28.53
+Rama Steel Tubes Ltd,+28.50
+Aurionpro Solutions,+28.47
+Virinchi L,+28.42
+Elgi Equipments,+28.35
+Avantel Ltd.,+28.33
+Binny Ltd.,+28.32
+Aarti Drugs Ltd,+28.29
+Ashiana Housing Ltd.,+28.24
+TCI Ltd.,+28.18
+Welspun India,+28.12
+Vaarad Ventures,+28.10
+Neuland Laborat,+28.09
+Saint-Gobain Sekurit,+28.09
+Next Mediaworks,+28.07
+Aarvee Denims an,+28.07
+IZMO,+28.04
+Manorama Industries,+28.00
+Gujarat Narmada Vall,+27.93
+Beardsell Ltd.,+27.93
+SNL Bearings Ltd.,+27.93
+Rupa & Company L,+27.90
+CCL International Lt,+27.84
+SAL Steel,+27.82
+Alicon Castalloy,+27.79
+Advent Computer,+27.68
+Saptarishi Agro,+27.64
+Vadilal Indus.,+27.47
+Samrat Pharma,+27.43
+Deep Diamond India,+27.36
+Sarda Energy & Miner,+27.08
+Redington (India) Lt,+26.98
+Hexa Tradex Ltd.,+26.98
+Dhabriya Polywood,+26.89
+AGI Infra Ltd.,+26.81
+Visagar Financial,+26.79
+C & C Constructions,+26.76
+Lovable Lingerie Ltd,+26.73
+Crest Ventures,+26.72
+Mazda Ltd.,+26.69
+Capacit'e Infraproje,+26.64
+Shyam Century Ferro,+26.58
+Tata Motors Ltd.,+26.50
+OK Play India Ltd.,+26.37
+GE T&D India,+26.28
+Vindhya Telelink,+26.23
+Barak Valley Cements,+26.14
+Automotive Axles,+26.05
+Jayaswal Neco Indust,+26.00
+Tuni Textile Mil,+25.93
+Goenka Business,+25.91
+CeejayFinance,+25.89
+Technofab Engineerin,+25.81
+Hilton Metal Forging,+25.75
+Automotive Stampings,+25.71
+Gabriel India,+25.61
+Jyoti Resins & A,+25.61
+Vallabh Steel Lt,+25.60
+Kiran Vyapar,+25.45
+M M Forgings Ltd.,+25.44
+Tyche Industries,+25.42
+Cholamandalam Financ,+25.37
+Saboo Sodium Ch,+25.33
+SV Global Mill Ltd.,+25.30
+Wall Street Fina,+25.27
+IST Ltd.,+25.22
+Nesco Ltd.,+25.21
+Cinevista L,+25.14
+Indian Terrain Fashi,+25.13
+Rajratan Global Wire,+25.09
+Talbros Engineering,+25.07
+Paramount Commun,+25.04
+Classic Global Fin,+25.00
+CL Educate,+25.00
+Hindusthan Urban Inf,+25.00
+Indian Metal & F,+24.95
+Shemaroo Entertainme,+24.91
+Jump Networks,+24.84
+The Investment Trust,+24.76
+IndusInd Bank,+24.45
+Mahindra CIE Auto,+24.44
+Som Distilleries,+24.38
+Banaras Beads Li,+24.35
+Surya Roshni Ltd,+24.35
+Finkurve Financial S,+24.29
+Mukand Engineers,+24.22
+Praxis Home Retail L,+24.20
+NIIT Ltd.,+24.07
+Premier Polyfilm,+24.03
+Rishiroop L,+23.88
+Prerna Infrabuild Lt,+23.87
+Aditya Birla Capital,+23.82
+Polyspin Exports,+23.81
+Futuristic Sec.,+23.81
+Continental Petr,+23.79
+Jindal Hotels,+23.79
+State Trading,+23.77
+Astec Lifesciences L,+23.75
+Muthoot Capital,+23.70
+AMD Industries Ltd.,+23.70
+Godrej Industries Lt,+23.66
+Sunil Healthcare,+23.56
+Valiant Organics,+23.53
+Triveni Eng.&Ind.Ltd,+23.52
+Cheviot Co Ltd,+23.48
+Zenlabs Ethica,+23.47
+Century Plyboards,+23.44
+Yash Pakka,+23.37
+Inox Leisure,+23.35
+Sri Krishna Construc,+23.33
+Link Pharma Chem,+23.24
+Asian Granito India,+23.20
+Ador Fontech Ltd,+23.19
+Apoorva Leasing Fina,+23.15
+Hitech Corporation,+23.15
+Music Broadcast,+23.15
+Bajaj Steel Ind.,+23.10
+PVR Ltd.,+23.05
+HIL,+23.04
+Sical Logistics,+22.99
+Jindal Stainless,+22.99
+Shiva Texyarn Ltd.,+22.97
+Entertainment Networ,+22.96
+Allcargo Logistics,+22.95
+Ganesh Housing,+22.94
+K P Energy Ltd.,+22.92
+Dwarikesh Sugar,+22.92
+Chemtech Industrial,+22.90
+Kesoram Industri,+22.90
+Adani Gas,+22.87
+Scooters India,+22.83
+Shanthi Gears,+22.80
+Rishabh Digha St,+22.65
+Somany Ceramics Ltd.,+22.62
+Cenlub Industrie,+22.58
+National Plastic,+22.57
+Garnet Construct,+22.50
+Burnpur Cement Ltd.,+22.50
+Ashoka Buildcon Ltd.,+22.50
+Ind Bank Housing,+22.48
+MRO-TEK Realty,+22.45
+ITD Cementation Indi,+22.40
+Bampsl Securitie,+22.39
+Uttam Sugar Mills,+22.38
+Blue Star,+22.36
+Minda Industries,+22.34
+Sandur M & I Ore,+22.32
+Aditya Birla Money L,+22.24
+Jaipan Industrie,+22.22
+Jagan Lamps,+22.21
+Nava Bharat Ventures,+22.19
+Sintex Industrie,+22.16
+Stylam Industries,+22.14
+RRIL,+22.02
+Ram Ratna Wires,+22.01
+Centrum Capital,+22.00
+Jain Irrigation,+21.96
+Mewar Hi-Tech Engine,+21.94
+Vascon Engineers Ltd,+21.83
+PNC Infratech,+21.82
+Ashima Ltd.,+21.79
+V2 Retail,+21.75
+B L Kashyap & Sons,+21.68
+Kimia Biosciences,+21.68
+Universal Cables,+21.66
+Ruttonsha Intl.,+21.65
+Sterlite Technologie,+21.57
+CreditAccess Grameen,+21.53
+IIFL Finance,+21.46
+Duroply lndustries L,+21.45
+Lotus Chocolate,+21.45
+Prime Industries,+21.43
+Piccadily Agro I,+21.42
+Shah Alloys,+21.39
+HT Media,+21.34
+Greenpanel Industrie,+21.27
+Cineline India,+21.26
+Mehai Technololgy,+21.21
+Majesco L,+21.19
+Yashraj Containeurs,+21.15
+Balrampur Chini,+21.12
+Swelect Energy Syste,+21.11
+Prima Agro Ltd.,+21.09
+Orissa Minerals Deve,+21.09
+Capital India Fin,+21.08
+Innovassynth Investm,+21.05
+Bharat Forge,+21.04
+Hipolin Ltd.,+21.03
+HB Portfolio,+20.98
+SE Power,+20.92
+Authum Investment,+20.91
+Chalet Hotels L,+20.88
+Windsor Machines,+20.83
+Bacil Pharma,+20.82
+Sumeet Industrie,+20.81
+Munjal Showa Ltd,+20.80
+Himadri Speciality,+20.77
+JSW Holdings,+20.77
+Cravatex,+20.76
+Gautam Gems,+20.75
+Zenith Fibres,+20.74
+Titan Securities,+20.69
+Dhunseri Ventures,+20.67
+Divya Shakthi Gr,+20.67
+Mukta Arts Ltd.,+20.67
+Mahindra Logistics L,+20.62
+Arvind Fashions,+20.61
+Xchanging Solutions,+20.60
+KNR Constructions,+20.48
+Gujarat Natural Res,+20.47
+Jubilant Industries,+20.45
+Howard Hotels Li,+20.44
+Sun TV Network Ltd.,+20.42
+Vardhman Special St,+20.29
+HB Estate Devlpr,+20.28
+Pioneer Investco,+20.28
+Sangam Renewables,+20.25
+Ruby Mills,+20.18
+Eastern Silk Indust.,+20.18
+RSWM Ltd.,+20.11
+Sutlej Textiles & In,+20.05
+Pitti Engineering,+20.00
+KDDL Ltd.,+20.00
+Allied Digital Servi,+20.00
+Ashika Credit Cap.,+19.89
+J Kumar Infraproject,+19.87
+Alchemist,+19.80
+Laffans Petro.,+19.80
+Atul Ltd.,+19.78
+Man Industries I,+19.73
+GRM Overseas,+19.67
+Pearl Global Industr,+19.60
+Jubilant Foodworks L,+19.58
+Menon Pistons Li,+19.56
+Gennex Laboratories,+19.51
+Keerthi Industries L,+19.44
+KEC International Lt,+19.44
+Repco Home Finance L,+19.31
+Patel Integrated Log,+19.24
+Lakshmi Auto Lm.,+19.23
+Resonance Spec.,+19.16
+Diana Tea Compan,+19.15
+KPR Mill Ltd.,+19.11
+Aries Agro Ltd.,+19.09
+Shalimar Paints,+19.03
+Tata Power Co.,+19.03
+Commercial Syn Bags,+19.02
+Eros International M,+19.01
+Autolite (I),+18.96
+SSPDL Ltd.,+18.94
+Gokak Textiles,+18.93
+D-Link (India),+18.93
+Kushal L,+18.91
+A2Z Infra Engineer,+18.85
+Ucal Fuel System,+18.83
+Vipul Ltd.,+18.75
+Texmo Pipes & Produc,+18.69
+Alexander Stamps,+18.67
+Abhishek Infraventur,+18.62
+Victory Paper &,+18.60
+TAAL Enterprises,+18.58
+Parabolic Drugs Ltd.,+18.57
+Bannari Amman Spinni,+18.54
+Sunteck Realty Ltd.,+18.48
+Brooks Laboratories,+18.45
+NRB Industrial Beari,+18.42
+Force Motors,+18.40
+City Union Bank,+18.34
+B N Rathi Securities,+18.33
+Parag Milk Foods,+18.30
+BCPL Railway Infrast,+18.28
+Celebrity Fashions L,+18.27
+Mirc Electronics,+18.26
+DQ Entertainment (In,+18.25
+H P Cotton Textiles,+18.24
+LGB Forge Ltd.,+18.22
+Everest Organics,+18.20
+Viceroy Hotels L,+18.18
+BLS International Se,+18.18
+HLV L,+18.18
+NBCC (India),+18.18
+Prakash Pipes,+18.17
+Avadh Sugar & Energy,+18.11
+Foseco India Lim,+18.09
+Tera Software,+18.07
+United Breweries Ltd,+18.03
+AstraZeneca Pharma I,+18.02
+Walchand Peoplefirst,+18.02
+Salzer Electr.,+18.01
+Fiberweb (India),+17.99
+Gujarat Fluorochem,+17.81
+Gokaldas Exports,+17.81
+Kavita Fabrics Ltd.,+17.81
+Brigade Enterprises,+17.80
+JSW Steel,+17.78
+Multibase India Ltd.,+17.74
+Sunil Agro Foods,+17.69
+SORIL Infra Resource,+17.66
+IDFC First Bank,+17.63
+Cochin Minerals,+17.62
+RCI Industries & Tec,+17.60
+Datamatics Global Se,+17.59
+Ganesha Ecosphere,+17.46
+Jost's Engg.,+17.46
+Divi's Lab,+17.46
+Lemon Tree Hotels,+17.44
+Anjani Portland,+17.42
+Grandeur Products,+17.42
+Mold-Tek Technologi.,+17.36
+Insecticides (India),+17.31
+OCL Iron & Steel,+17.28
+FAZE THREE Autofab,+17.28
+Dhunseri Tea & Indus,+17.27
+Bilcare Ltd.,+17.27
+Kanpur Plasti.,+17.25
+Garware Tech. Fibres,+17.24
+PMC Fincorp,+17.24
+Birlasoft,+17.18
+Nalwa Sons Investmen,+17.17
+Shashijit Infraproje,+17.12
+Manaksia Ltd.,+17.11
+Prakash Indus.,+17.06
+Honeywell Automation,+17.05
+Maithan Alloys Ltd.,+17.01
+Mahaan Foods Lim,+16.87
+Diamines & Chem.,+16.87
+Keltech Energies,+16.86
+Revathi Equipment Lt,+16.76
+DCM Ltd.,+16.75
+Poona Dal & Oil,+16.75
+Tata Consumer Produc,+16.74
+HFCL,+16.67
+Metkore Alloys & Ind,+16.67
+Elecon Engg.,+16.60
+JTEKT India,+16.60
+Nitco Ltd.,+16.56
+SKP Securities,+16.48
+STL Global Ltd.,+16.46
+Baba Arts,+16.45
+Asian Tea Export,+16.43
+TCI Developers Ltd.,+16.42
+Jindal Stainless (Hi,+16.39
+Rathi Bars Ltd.,+16.39
+Sir Shadilal Ent,+16.39
+B&A Ltd.,+16.34
+Dynacons Systems,+16.30
+Shree Global Tra,+16.30
+Arvind SmartSpaces,+16.30
+Goblin India,+16.28
+Tata Elxsi Ltd.,+16.26
+WEP Solutions,+16.25
+Spicejet Ltd.,+16.25
+Trent Ltd.,+16.24
+India Nippon Ele,+16.15
+Oriental Hotels,+16.14
+Mangalam Industrial,+16.13
+MEP Infrastructure,+16.13
+Ishan Dyes & Che,+16.13
+Techindia Nirman Ltd,+16.07
+VCU Data Management,+16.03
+Kavit Industries,+16.01
+Indo Amines Limi,+15.99
+Tree House Education,+15.98
+Supreme Petroche,+15.97
+Hind. Food,+15.94
+IFB Agro Indus,+15.92
+Rane Holdings Ltd.,+15.82
+DCW Ltd.,+15.82
+Kirloskar Elect,+15.79
+Techno Electric&Eng,+15.77
+LG Balakrishnan&Bros,+15.76
+Firstsource Solution,+15.75
+Amal Ltd.,+15.74
+Oswal Green Tech,+15.67
+AK Capital Services,+15.66
+Rain Industries,+15.62
+Triveni Turbine,+15.60
+Deccan Cements,+15.49
+Karur Vysya Bank,+15.45
+Nagarjuna Agrite,+15.44
+Lincoln Pharmace,+15.41
+The Hi-Tech Gears,+15.24
+Man Infraconstructio,+15.23
+Dhampur Sugar,+15.21
+Himalaya Food Inter,+15.20
+Asahi India Glass,+15.19
+Phillips Carbon,+15.19
+Roto Pumps Ltd,+15.17
+Century Textiles,+15.17
+Vintron Informat,+15.15
+Mangal Credit & Fin,+15.14
+GHCL,+15.13
+Timken India Ltd,+15.12
+Kirloskar Oil Engine,+15.11
+MarathonNextgenRea,+15.03
+Finolex Industri,+14.96
+Mahindra Lifespace D,+14.96
+BCL Enterprises,+14.95
+Kesar Petroprod.,+14.92
+Plastiblends Ind,+14.91
+Adani Transmission L,+14.83
+PSL Ltd.,+14.81
+Superior Finlease,+14.75
+Sobha,+14.74
+Trejhara Solutions L,+14.74
+Ahluwalia Contra,+14.73
+Lux Industries,+14.70
+India Gelatine &,+14.69
+Munjal Auto Industr.,+14.66
+Pudumjee Paper Produ,+14.64
+Solitaire Machin,+14.62
+Astral Poly Technik,+14.59
+Gateway Distriparks,+14.55
+Hind Rectifiers,+14.52
+Hikal Ltd.,+14.52
+Laurus Labs,+14.41
+Lakshmi Machines,+14.41
+NOCIL Ltd.,+14.38
+Maha. Seamless,+14.38
+LIC Housing Fi,+14.36
+Blue Dart Expres,+14.36
+Bartronics India Ltd,+14.36
+GNA Axles,+14.33
+Newgen Software Tech,+14.29
+Triton Valves,+14.28
+Orient Refractories,+14.28
+Bajaj Electricals,+14.28
+Somany Home Innovat,+14.27
+Ruchira Papers Ltd.,+14.26
+Nandan Denim,+14.25
+Strides Pharma Scien,+14.24
+GMR Infrastructure L,+14.18
+Ansal Housing L,+14.17
+CSL Finance,+14.16
+Mayur Uniquoters,+14.15
+Eldeco Housing &,+14.14
+NCL Industries,+14.13
+Gala Global Products,+14.13
+Sandesh,+14.09
+Deepak Nitrite,+14.02
+Banco Products,+14.00
+IFCI Ltd.,+13.99
+Mayukh Dealtrade,+13.98
+Confidence Petroleum,+13.97
+Kretto Syscon,+13.96
+Shivalik Bimetal,+13.93
+Symbiox Investment,+13.92
+Hester Biosciences L,+13.91
+Sanghi Industrie,+13.91
+Surana Solar,+13.86
+Indiabulls Real Esta,+13.83
+Guj. Mineral Dev,+13.82
+Coral Labs.,+13.80
+Frontier Springs,+13.77
+Mystic Electronics,+13.74
+Maestros Electronics,+13.70
+Transcorp Inter,+13.69
+Cholamandalam Invest,+13.69
+Praj Industries,+13.68
+Cyient Ltd.,+13.63
+Aptech Ltd.,+13.63
+Porwal Auto Comp,+13.60
+Solar Industries Ind,+13.58
+Jay Bharat Marut,+13.58
+Prism Johnson,+13.57
+PBM Polytex,+13.53
+Emmbi Industries,+13.50
+63 Moons Technologie,+13.49
+GPT Infraprojects,+13.49
+MothersonSumiSystems,+13.46
+Tech Mahindra,+13.43
+Intrasoft Technologi,+13.34
+Brightcom Group,+13.33
+Hindustan Media Vent,+13.33
+Rolta India,+13.32
+Sterling and Wilson,+13.29
+Rajoo Engineers,+13.28
+Fundviser Capital,+13.16
+Thangamayil Jeweller,+13.12
+KPIT Technologies,+13.08
+Apollo TriCoat Tubes,+13.07
+Fine Organic Indus,+13.06
+Ester India,+13.04
+Shriram EPC Ltd.,+13.01
+Take Solutions Ltd.,+13.01
+Universus Photo Imag,+13.00
+Zee Learn Ltd.,+13.00
+Hind Aluminium Indus,+12.97
+Asian Paints Ltd.,+12.93
+GIC Housing Fi,+12.92
+Suryachakra Power Co,+12.90
+Atul Auto Ltd,+12.89
+AXISCADES Engineer,+12.85
+Dollar Industries,+12.83
+Royal Orchid Hotels,+12.82
+Milk Food,+12.80
+Cummins India Lt,+12.77
+Arshiya,+12.76
+Yogi Infra Projects,+12.75
+Shree Renuka Sugars,+12.71
+Asian Hotels (East),+12.70
+Ashnoor Textile,+12.69
+JTL Infra L,+12.69
+CSB Bank,+12.64
+Bliss GVS Pharma,+12.63
+Dhanlaxmi Bank,+12.63
+Polylink Polymer,+12.61
+National Fittings,+12.60
+Birla Cable,+12.60
+Cybertech System,+12.57
+BCL Industries,+12.54
+Asian Hotels (North),+12.52
+Apex Frozen Foods,+12.49
+Advani Hotels,+12.41
+Astra Microwave,+12.41
+Akzo Nobel India,+12.40
+CJ Gelatine,+12.39
+Shoppers Stop,+12.39
+Agarwal Industrial C,+12.38
+Vaswani Industries L,+12.34
+Oceanic Foods,+12.29
+DJ Mediaprint & Logi,+12.29
+Arvind Ltd.,+12.23
+ANG Lifesciences Ind,+12.20
+Kolte-Patil Develope,+12.17
+Camex Ltd.,+12.17
+Prozone Intu Propert,+12.17
+Northern Spirits,+12.15
+Orient Electric,+12.15
+Bharti Infratel Ltd.,+12.14
+Shirpur Gold Refiner,+12.13
+VMS Industries Ltd.,+12.13
+CDG Petchem,+12.12
+SKF India,+12.08
+HSIL Ltd.,+12.03
+Precision Camshafts,+12.02
+Kriti Nutrients,+12.02
+VMV Holidays Ltd.,+11.99
+APL Apollo Tubes,+11.97
+Safari Indus.,+11.97
+The Anup Engineering,+11.95
+Raj Television Netwo,+11.94
+Ugar Sugar Works,+11.92
+Swaraj Engines,+11.91
+Tata Steel Long Prod,+11.90
+Prestige Estates Pro,+11.84
+UFO Moviez India Ltd,+11.84
+Cubex Tubings Lt,+11.82
+Sandu Pharmaceut,+11.81
+Blue Chip Tex In,+11.77
+Endurance Technologi,+11.76
+Sadbhav Engineering,+11.75
+JM Financial Ltd.,+11.74
+TV Today Network Ltd,+11.72
+Pennar Industrie,+11.69
+Nila Spaces L,+11.61
+Chemfab Alkalis,+11.59
+Raymond Ltd,+11.57
+Vapi Enterprise,+11.56
+Energy Developme,+11.54
+Texmaco Rail & Engin,+11.54
+Rasi Electrodes,+11.52
+Talbros Auto.,+11.51
+Dixon Technologies,+11.49
+Aanchal Ispat Ltd.,+11.48
+Jindal Drilling,+11.47
+BASF India Lt,+11.44
+Maan Aluminium Ltd.,+11.41
+Grasim Inds.,+11.39
+Sandhar Technologies,+11.35
+Suprajit Enginee,+11.32
+Hind. Composites,+11.32
+Gujarat Poly Electro,+11.31
+TIL Ltd.,+11.29
+Nahar Spg Mills,+11.28
+Vinyl Chemicals,+11.26
+Liberty Shoes Li,+11.25
+Danube Industries L,+11.24
+Shalby,+11.22
+Filatex India,+11.20
+Schaeffler India,+11.18
+JMC Projects,+11.17
+La Opala RG Ltd.,+11.16
+Zeal Aqua,+11.12
+Stovec Indus.,+11.11
+Surana Telecom and P,+11.11
+National Plywood Ind,+11.11
+Precision Elect.,+11.11
+Tata Coffee Ltd.,+11.10
+Aditya Birla Fashion,+11.09
+Inani Marbles &,+11.04
+Grindwell Norton,+11.02
+JITF Infralogistics,+11.02
+Morarjee Textiles Li,+11.01
+Avonmore Capital,+11.00
+Guj. Hotels Ltd.,+10.99
+Hercules Hoists,+10.96
+Magma Fincorp Ltd.,+10.95
+Kanoria Chemical,+10.95
+Indo Thai Securities,+10.94
+Suyog Telematics,+10.94
+KIOCL,+10.92
+Akashdeep Metal Ind.,+10.89
+Novateor Research,+10.88
+Suven Life Sciences,+10.87
+Mukesh Babu Fina,+10.85
+Deccan Health Care,+10.84
+Himatsingka Seid,+10.83
+Karda Constructions,+10.82
+Gillette India Ltd.,+10.81
+Simmonds Marshal,+10.81
+India Tourism De,+10.78
+Vardhman Textiles Lt,+10.76
+TD Power Systems Ltd,+10.67
+Arcotech Ltd.,+10.67
+POCL Enterprises,+10.64
+Electrosteel Cas,+10.63
+Prataap Snacks,+10.58
+TCI Express,+10.56
+Gloster L,+10.55
+Sundaram Clayton,+10.54
+Gayatri Highways,+10.53
+Apollo Pipes,+10.52
+Kalpataru Power,+10.49
+Excel Industries,+10.49
+Ajel Ltd.,+10.48
+Asian Oilfield S,+10.44
+SMS Lifesciences Ind,+10.43
+Shiva Cement Ltd,+10.42
+Premco Global Li,+10.40
+Brahmaputra Infra,+10.38
+Capri Global Capital,+10.37
+Tribhovandas Bhimji,+10.37
+Skipper Ltd.,+10.37
+PTC India,+10.36
+Olectra Greentech,+10.36
+Competent Automo,+10.34
+Cosco (India),+10.33
+Lambodhara Texti,+10.30
+Uniphos Enterprises,+10.25
+West Coast Paper,+10.25
+Arfin India,+10.23
+Power Mech Projects,+10.21
+SML Isuzu Ltd.,+10.18
+Fermenta Biotech,+10.18
+Alankit,+10.14
+RPP Infra Projects L,+10.11
+AYM Syntex,+10.10
+NTPC,+10.10
+SRF Ltd.,+10.10
+DCB Bank,+10.09
+TCNS Clothing,+10.06
+Superhouse Ltd.,+10.02
+Satia Industries,+10.00
+Patels Airtemp,+10.00
+Sanco Trans,+10.00
+Poly Medicure Lt,+9.99
+Grauer & Weil,+9.97
+Ajmera Realty & Infr,+9.95
+Career Point,+9.93
+UPL,+9.93
+Federal-Mogul Goetze,+9.93
+Oceanaa Biotek Ind,+9.93
+BF Utilities Ltd.,+9.93
+TTK Prestige L,+9.93
+Hind.ConstructionCo.,+9.89
+KEI Industries,+9.88
+Ganges Securities,+9.88
+Linde India,+9.86
+GSS Infotech,+9.86
+Cosmo Ferrites,+9.84
+HG Infra Engineering,+9.82
+B C Power Controls L,+9.80
+Inditrade Capital,+9.78
+Ind Renewable Energy,+9.78
+VRL Logistics Ltd.,+9.76
+Prakash Wool.& Syn.,+9.74
+Mangalam Timber,+9.73
+Rushil Decor Ltd.,+9.71
+Nahar Indust.Ent,+9.71
+T Nadu Newsprint,+9.71
+Contil India,+9.70
+Prime Property Devel,+9.66
+Maruti Suzuki India,+9.65
+SAL Automotive,+9.64
+Bhageria Industries,+9.62
+Cords Cable Industri,+9.62
+Moneyboxx Finance,+9.59
+Monte Carlo Fashions,+9.55
+Arihant Superstructu,+9.55
+Kansai Nerolac Paint,+9.53
+Religare Enterprises,+9.50
+Winsome Brewerie,+9.49
+VIP Indus.,+9.43
+Rail Vikas Nigam,+9.40
+Guj. Amb.Exports,+9.39
+Damodar Industries,+9.38
+Igarashi Motors Indi,+9.37
+Tamboli Capital,+9.31
+Metropolis Healthcar,+9.28
+Prism Medico and Pha,+9.27
+Amber Enterprises,+9.25
+Nutraplus India,+9.24
+Electrotherm (In,+9.23
+Satin Creditcare,+9.20
+Rane Brake Lining Lt,+9.17
+Dilip Buildcon Ltd.,+9.16
+Delta Corp Ltd.,+9.15
+Mastek Li,+9.15
+P&G Health,+9.14
+Archies Ltd.,+9.14
+Max Financial Servic,+9.13
+Sun Techno Overseas,+9.09
+PSP Projects,+9.09
+Cera Sanitaryware L,+9.09
+Solara Active Pharma,+9.08
+Meghmani Organics,+9.07
+HPL Electric & Power,+9.06
+Ishita Drugs & I,+9.05
+NCC,+9.03
+Adani Ports & Speci,+9.02
+Alfa Ica (India),+9.02
+Jayshree Tea,+9.02
+Sunflag Iron,+9.01
+Tourism Finance,+9.01
+Rane Engine Valve Lt,+8.99
+Cigniti Technologies,+8.99
+Jammu & Kashmir Bank,+8.98
+Snowman Logistics Lt,+8.93
+Action Construction,+8.91
+Arrow Greentech,+8.90
+Flex Foods,+8.90
+Narayani Steels,+8.86
+Titagarh Wagons Ltd.,+8.84
+Waterbase Ltd.,+8.83
+Inspirisys Solutions,+8.82
+India Motor Part,+8.80
+Mirza International,+8.80
+Pil Italica Lifestyl,+8.79
+KCP Sugar & In,+8.79
+Restile Ceramics,+8.76
+HBL Power Systems Lt,+8.74
+Mold-Tek Packaging,+8.74
+Ansal Properties & I,+8.73
+Kalyani Investment,+8.72
+Harita Seating Syst.,+8.71
+Navkar Corporation L,+8.67
+Lahoti Overseas,+8.65
+Sadbhav Infrastructu,+8.63
+Shreyans Inds.,+8.62
+Pfizer Ltd.,+8.62
+Cimmco,+8.61
+Pritika Auto Ind.,+8.59
+Mangalam Organics,+8.59
+Reliance Chemote,+8.56
+ICRA Ltd.,+8.56
+DLF Ltd.,+8.55
+ITL Industries,+8.54
+Austin Engg. Co.,+8.53
+RBL Bank,+8.50
+Bank of Maharash,+8.45
+Banswara Syntex,+8.38
+Mercantile Ventures,+8.36
+Kohinoor Foods Ltd.,+8.35
+Richa Industries Ltd,+8.33
+Paisalo Digital L,+8.33
+Hero MotoCorp,+8.31
+Mawana Sugars Ltd.,+8.30
+J L Morison (India),+8.28
+Bharat Heavy Ele,+8.26
+Aban Offshore,+8.23
+SBI,+8.22
+Saven Technologies L,+8.21
+Deepak Fertilisers,+8.20
+Magellanic Cloud,+8.19
+Indian Bank,+8.19
+Prajay Engineers,+8.18
+Cerebra Integrat,+8.18
+Ashirwad Capital,+8.12
+Steel Strips Wheels,+8.11
+Greenply Industr,+8.11
+TVS Electronics,+8.10
+Navin Fluorine Inter,+8.10
+Rico Auto Inds.,+8.08
+BNR Udyog,+8.07
+Vikas Proppant & Gra,+8.06
+Daikaffil Chemic,+8.06
+NRB Bearings Lim,+8.03
+Archit Organosys,+8.02
+Sonata Software,+8.01
+Investment & Pre,+8.00
+Goyal Associates,+8.00
+Pidilite Inds.,+7.97
+Schneider Electric,+7.96
+Haryana Capfin Ltd.,+7.93
+TeamLease Service,+7.92
+Steel Authority,+7.86
+SBI Cards and Pay,+7.77
+Control Print Ltd.,+7.75
+Dredging Corpora,+7.74
+Time Technoplast Ltd,+7.74
+Jayant Agro Org,+7.73
+WPIL Ltd.,+7.71
+Maral Overseas,+7.69
+Intellect Design,+7.68
+Centum Electronics L,+7.67
+Nelcast Ltd.,+7.65
+Williamson Magor,+7.65
+Radhe Developers,+7.65
+Dalmia Bharat Sugar,+7.63
+P G Industry Ltd,+7.62
+HDFC Bank,+7.62
+Tarmat L,+7.60
+Kaya L,+7.60
+AtlasCycles(Haryana),+7.59
+Texmaco Infrastructu,+7.59
+Kajaria Ceramics,+7.57
+Adhunik Industries,+7.55
+HOV Services Ltd.,+7.52
+Sunshield Chemic,+7.52
+Kanchi Karpooram,+7.51
+Bajaj Finance L,+7.49
+GTPL Hathway,+7.46
+Lykis L,+7.42
+Riga Sugar Company,+7.40
+Tata Metaliks,+7.40
+Bharat Electroni,+7.37
+Polson Ltd.,+7.36
+Enkei Wheels (India),+7.35
+Gayatri Projects,+7.35
+Weizmann,+7.31
+NMDC Ltd.,+7.30
+Agro Tech Foods Ltd.,+7.30
+ObjectOne Inform,+7.29
+Dr. Habeebullah Life,+7.28
+Finolex Cables,+7.28
+Morepen Labs.Lt,+7.28
+Vardhman Holdings,+7.28
+Sundaram Finance,+7.25
+Power Finance Co,+7.25
+Radico Khaitan Ltd.,+7.24
+CESC Ltd.,+7.22
+Saregama India Ltd.,+7.22
+Tata Communications,+7.21
+RTS Power Corpor,+7.21
+Hubtown,+7.20
+Voltas Ltd.,+7.15
+Zuari Global,+7.14
+Choksi Lab. Ltd,+7.14
+Gujarat Pipavav Port,+7.08
+NACL Industries L,+7.07
+Rajshree Sugars,+7.06
+Inventure Growth & S,+7.04
+Zen Technologies Ltd,+7.03
+Magna Electrocas,+7.02
+Tata Investment,+7.01
+Kirloskar Ferrou,+6.99
+Huhtamaki PPL,+6.99
+Bella Casa Fashion &,+6.98
+Kama Holdings Ltd.,+6.95
+Conart Engineers,+6.94
+Signet Industries,+6.91
+Parsvnath Developers,+6.90
+Sangal Papers Li,+6.90
+HUDCO,+6.86
+Jindal St & Pwr,+6.84
+Hisar Metal Indu,+6.82
+Shakti Pumps (In,+6.82
+Country Club Hospita,+6.80
+Elixir Capital,+6.79
+Linc Pen & Plast,+6.78
+Guj. Intrux,+6.77
+Benares Hotels,+6.71
+Esab India,+6.70
+Galaxy Surfacta.,+6.67
+CNI Research Ltd.,+6.67
+Adani Power Ltd.,+6.67
+Upasana Finance,+6.67
+Indian Hume Pipe,+6.66
+Bata India,+6.66
+Thyrocare Tech.,+6.65
+Puravankara,+6.65
+DCM Shriram,+6.64
+Karnataka Bank,+6.61
+Equitas Holdings Ltd,+6.59
+MOIL Ltd.,+6.57
+Filatex Fashions,+6.56
+Thirumalai Chem.,+6.55
+Savita Oil Tech,+6.54
+J B Chemicals & Phar,+6.54
+Deep Industries,+6.53
+Shervani Ind.Syn,+6.52
+NLC India L,+6.52
+Lumax Inds.,+6.51
+Catvision Ltd.,+6.50
+Granules India L,+6.48
+Wanbury,+6.46
+Jagsonpal Pharma,+6.45
+AGC Networks,+6.42
+Century Enka,+6.41
+Chaman Lal Setia,+6.40
+Indostar Capital Fin,+6.40
+Vishwaraj Sugar Ind,+6.40
+Jindal Saw,+6.37
+Kokuyo Camlin,+6.36
+Kewal Kiran Clothing,+6.35
+Makers Lab.,+6.32
+SREI Infrastructure,+6.31
+ABB India,+6.30
+Tarini International,+6.29
+Gati Ltd.,+6.28
+GlaxoSmithKline Phar,+6.27
+IM+ Capitals,+6.26
+Royale Manor Hot,+6.25
+Indiabulls Integrate,+6.24
+Accelya Solutions In,+6.24
+Uflex Ltd.,+6.23
+Supreme Inds.,+6.23
+NHPC,+6.22
+Shipping Corpn.,+6.21
+BNK Capital Mark,+6.21
+HMT Ltd.,+6.21
+Sukhjit Starch &,+6.15
+Visaka Indus.,+6.14
+Avanti Feeds Lim,+6.06
+Garnet International,+6.06
+Super Bakers (India),+6.06
+L&T Finance Holdings,+6.03
+Nitin Castings,+6.00
+Indl.&Prud.Invst,+6.00
+Global Vectra Helico,+5.98
+Hindalco Indus.,+5.98
+DB Corp,+5.97
+RattanIndia Infra,+5.96
+YES Bank Ltd.,+5.94
+Bannari Amman Su,+5.93
+Chembond Chemica,+5.91
+Gandhi Special,+5.88
+Golden Tobacco Ltd.,+5.85
+Narayana Hrudayalaya,+5.85
+Super Tannery,+5.84
+Victoria Mills,+5.82
+Shri Jagdamba Poly,+5.82
+P G Foils Ltd,+5.77
+Hinduja Global Solut,+5.75
+Responsive Industrie,+5.74
+G G Engineering,+5.74
+KMC Speciality Hospi,+5.72
+Bharat Bijlee,+5.71
+Tasty Dairy Speciali,+5.71
+Winsome Textile,+5.71
+Hariyana Ship-Br,+5.67
+Magadh Sugar & Energ,+5.66
+SJVN Ltd.,+5.63
+Indo National,+5.63
+HEG Ltd.,+5.63
+Mac Charles,+5.60
+Jaypee Infratech Ltd,+5.60
+Welspun Corp,+5.59
+Summit Securities,+5.59
+Sarla Performance Fi,+5.57
+South Indian Ban,+5.55
+Bharat Immunolog,+5.55
+Smartlink Holdings,+5.54
+GlobalSpace Techno,+5.54
+Transgene Biotek,+5.53
+Suryalakshmi Cot,+5.52
+AIA Engineering,+5.52
+Escorts Ltd.,+5.51
+Basant Agro Tech,+5.51
+Advanced Enzyme Tech,+5.50
+SBC Exports,+5.50
+Siemens Ltd.,+5.50
+Bigbloc Construction,+5.49
+Chordia Food Product,+5.48
+Future Lifestyle,+5.48
+Kiri Industries,+5.47
+Aro Granite Indu,+5.46
+Godrej Agrovet L,+5.39
+Videocon Industries,+5.37
+Rossari Biotech,+5.34
+Fineotex Chemical Lt,+5.33
+Gulf Oil Lubricants,+5.31
+TPL Plastech Ltd.,+5.31
+Monarch Networth Cap,+5.26
+Phoenix Mills,+5.26
+Apar Industries,+5.25
+TCFC Finance Ltd,+5.25
+Astron Paper & Board,+5.24
+Dyna Vision,+5.24
+SRG Housing Finance,+5.22
+Perfectpac,+5.22
+Sangam India Ltd,+5.20
+Quess Corp,+5.19
+Walchandnagar,+5.19
+Mahindra Holidays,+5.19
+Prime Securities,+5.19
+White Organic Agro,+5.19
+Tata Steel,+5.18
+India Glycols,+5.17
+MPS Ltd.,+5.17
+Vesuvius India,+5.14
+Beekay Steel Indus,+5.13
+Radhey Trade Holding,+5.13
+Birla Precision Tech,+5.10
+Swas.Vinay.Synt,+5.10
+Sakuma Exports,+5.10
+Welspun Enterprises,+5.09
+Selan Exploratio,+5.09
+Axis Bank Ltd.,+5.09
+MindTree Ltd.,+5.06
+Viaan Industries,+5.06
+Nilkamal Ltd.,+5.02
+Bharat Road Network,+5.01
+Havells India,+5.00
+Guj. Industries,+4.98
+Ratnamani Metals,+4.98
+Maxheights Infra,+4.95
+Umang Dairies Ltd.,+4.94
+Ujjivan Financial,+4.92
+Navneet Education,+4.90
+GSFC,+4.89
+Jagran Prakashan,+4.88
+Berger Paints I,+4.86
+Khadim India,+4.84
+Rane (Madras),+4.81
+Scan Steels,+4.80
+Genus Power Infrastr,+4.79
+Hexaware Technologie,+4.78
+Graphite India Ltd.,+4.77
+Menon Bearings L,+4.75
+Indowind Energy Ltd.,+4.75
+Vardhman Polytex,+4.74
+Vippy Spinpro,+4.69
+Bandhan Bank,+4.68
+Apollo Tyres,+4.67
+The Ramco Cements,+4.66
+Avenue Supermarts,+4.63
+Dynamic Industri,+4.62
+SundaramBrakeLining,+4.62
+Sastasundar Ventures,+4.62
+Nippon LifeAM Ltd.,+4.61
+Osiajee Texfab,+4.58
+TVS Srichakra Lt,+4.58
+Manugraph India Ltd.,+4.55
+Carborundum Uni.,+4.53
+IndiaNivesh,+4.45
+Future Retail L,+4.41
+Westlife Development,+4.40
+Johnson Controls-Hit,+4.37
+Quick Heal Technolog,+4.36
+Dr. Agarwal's Ey,+4.35
+Sumeru Industries Lt,+4.35
+Econo Trade (India),+4.34
+Shiva Mills,+4.34
+Dhanvantri Jeeva,+4.34
+Steel Cast,+4.33
+Southern Latex,+4.32
+ABB Power Products,+4.32
+National Alumini,+4.31
+BayerCropscience,+4.31
+Coral India Finance,+4.28
+Heritage Foods,+4.26
+De Nora India Ltd.,+4.25
+Thermax,+4.23
+DIC India,+4.21
+Neogen Chemicals,+4.17
+Sun and Shine World,+4.17
+Balkrishna Paper Mil,+4.17
+TVS Motor Co. Ltd.,+4.13
+Vision Corporation,+4.11
+VLS Finance L,+4.10
+Unitech Internationa,+4.09
+Jindal Poly Films,+4.08
+Goa Carbons,+4.07
+Madras Fertilize,+4.03
+Hindoostan Mills,+4.02
+CIL Securities L,+4.00
+Shriram Trans.Fi,+3.97
+Sea TV Network Ltd.,+3.97
+Exide Inds.,+3.97
+Amrutanjan Health Ca,+3.96
+Trescon L,+3.95
+G M Breweries Ltd.,+3.94
+Niyogin Fintech,+3.94
+Camlin Fine Sciences,+3.93
+Manaksia Aluminium,+3.89
+Goldiam Internat,+3.88
+Golkunda Diamond,+3.83
+ICICI Bank,+3.80
+Swarnsarita Gems,+3.79
+Gillanders Arbut,+3.75
+Mahi. & Mahi,+3.75
+Tata Steel BSL,+3.74
+Relaxo Footwears,+3.73
+Punj. NationlBak,+3.70
+D B Realty Ltd.,+3.70
+Bombay Dyeing,+3.68
+Modern Dairies,+3.66
+SVP Global Ventures,+3.60
+Shree Steel Wire,+3.58
+NTC Industries,+3.57
+Everest Industries L,+3.56
+REC,+3.56
+Galaxy Bearings,+3.55
+Polycab India,+3.54
+Persistent Systems,+3.53
+Tamilnadu Petroprod,+3.53
+SPL Industries L,+3.53
+Tejnaksh Healthcare,+3.46
+Fraser & Company,+3.45
+Twentyfirst Cent,+3.45
+Indraprastha Gas Ltd,+3.45
+Cressanda Solutions,+3.45
+Titan Company,+3.44
+Ravi Kumar Distiller,+3.43
+DHP India Ltd.,+3.42
+Essel Propack Ltd.,+3.40
+Repro India Ltd.,+3.39
+Speciality Restauran,+3.38
+Bedmutha Industries,+3.37
+SITI Networks,+3.37
+Kilitch Drugs(I),+3.35
+BEML Ltd.,+3.34
+Mahesh Developers,+3.33
+Fluidomat,+3.31
+Aavas Financiers,+3.31
+Biocon,+3.29
+D & H India,+3.29
+Ujjivan SmallFinance,+3.28
+Facor Alloys Ltd.,+3.28
+Amara Raja Batt.,+3.28
+Lehar Footwears,+3.27
+Infibeam Avenues,+3.27
+Pradeep Metals,+3.26
+Glenmark Pharma,+3.25
+Godrej Properties Lt,+3.25
+Krypton Ind.,+3.24
+Hind. Adhesives,+3.23
+Dewan Housing,+3.22
+NDTV,+3.21
+Minda Corporation,+3.20
+Sejal Glass,+3.17
+Hatsun Agro Prod,+3.16
+Graviss Hospitality,+3.16
+Compucom Softwr,+3.14
+WelspunInvestments,+3.11
+Ambika Cotton Mi,+3.08
+Maximus Intl.,+3.06
+Auro Labs,+3.06
+Whirlpool of Ind,+3.04
+Guj. Alkalie & C,+3.04
+Alkali Metals Ltd.,+3.04
+N R Agarwal Indu,+3.01
+Sanofi India,+3.00
+Generic Engineering,+3.00
+SIL Investments Ltd.,+2.99
+Rudra Global Infra P,+2.99
+Kotak Mahindra Bank,+2.99
+Sicagen India,+2.98
+The Indian Card Clot,+2.97
+Ingersoll Rand,+2.94
+Tejas Networks,+2.92
+BAG Films & Media,+2.92
+Pressman Advertising,+2.89
+GP Petroleums,+2.88
+Kothari Products,+2.87
+Crisil,+2.87
+KSB Ltd,+2.84
+Vinati Organics,+2.83
+Rallis India,+2.82
+Narbada Gems & Jewel,+2.81
+Asso. Alcohols,+2.81
+Kitex Garments,+2.79
+Tatia Global Venntur,+2.78
+Coal India,+2.76
+Mahindra EPC Irrigat,+2.76
+JBM Auto,+2.74
+Autoline Industries,+2.73
+Shree Ajit Pulp,+2.72
+Kamdhenu Ispat,+2.70
+CIL Nova Petrochemic,+2.68
+5Paisa Capital,+2.67
+OnMobile Global Ltd.,+2.66
+Samkrg Pistons & Rin,+2.66
+Swadeshi Industr,+2.63
+Luharuka Media & Inf,+2.63
+Bhagyanagar India Lt,+2.62
+Kennametal India,+2.61
+Pharmaids Pharma,+2.59
+Tata Chemicals,+2.58
+Sudarshan Chem.,+2.57
+Federal Bank,+2.57
+Eveready Industr,+2.55
+Vedanta,+2.53
+GAIL (India) Ltd.,+2.51
+MMTC Ltd.,+2.49
+Kisan Mouldings,+2.49
+Gallantt Ispat Ltd.,+2.41
+V-Guard Ind.Ltd.,+2.40
+Abbott India Ltd.,+2.38
+Gravita India Ltd.,+2.38
+Pro Fin Capital Serv,+2.38
+Bajaj Healthcare,+2.38
+Tata Teleservices (M,+2.37
+SBEC Sugar Lt,+2.37
+Websol Energy System,+2.36
+IRCTC,+2.35
+ABC India Ltd.,+2.35
+CCL Products India,+2.33
+Suncare Traders,+2.30
+Godfrey Phillips Ind,+2.29
+Nahar Capital & Fina,+2.29
+L&T,+2.27
+Harrisons Malaya,+2.26
+M&M Fin.Services,+2.23
+General Ins. Corp.,+2.20
+Sankhya Info,+2.20
+Ipca Laboratorie,+2.18
+Mangalam Cement,+2.16
+Fortis Malar Hospita,+2.08
+Aishwarya Tech.&Tele,+2.07
+N G Industries Ltd.,+2.06
+GFL L,+2.05
+Amba Enterprises,+2.05
+APM Industries,+2.04
+GOCL Corporation,+2.04
+Refnol Resins &,+2.02
+Goodluck India,+2.01
+Oriental Carbon,+2.01
+Ramco Industries,+2.01
+Polyplex Corpn.,+2.01
+Siyaram Silk,+1.97
+Sanghvi Movers L,+1.96
+Ador Welding Ltd.,+1.96
+Motilal Oswal Financ,+1.95
+Gallantt Metal,+1.94
+Rites Ltd.,+1.94
+Empire Inds.,+1.93
+ITI,+1.92
+Indian Energy Exchan,+1.87
+Vidhi Specialty Food,+1.86
+Brady & Morris E,+1.79
+Balmer Lawrie &,+1.79
+Ducon Infratech,+1.78
+Bhagwati Auto.,+1.78
+IRB Infrastructure,+1.75
+Indo Tech Transforme,+1.72
+V Mart Retail,+1.71
+TTK Healthcare Ltd.,+1.71
+Dhunseri Investments,+1.70
+Ludlow Jute & Specia,+1.67
+Orient Abrasives,+1.67
+MTNL,+1.65
+Premier Explos.,+1.65
+JaiprakashAssociates,+1.65
+Mishtann Foods L,+1.64
+Torrent Power Ltd.,+1.63
+RDB Rasayans Ltd.,+1.63
+Easun Reyrolle L,+1.59
+Venus Remedies L,+1.57
+Oberoi Realty,+1.53
+IOL Chemicals and Ph,+1.46
+Cochin Shipyard,+1.46
+GEE Ltd.,+1.45
+HDFC AMC,+1.44
+JR Foods Ltd,+1.43
+Genus Paper & Boards,+1.42
+Kamat Hotels (In,+1.41
+Gujarat Gas,+1.40
+Oracle Financial Ser,+1.40
+Rapicut Carbides,+1.37
+IL&FS Transportation,+1.37
+Meera Industries,+1.35
+SMS Pharmaceuticals,+1.30
+Borosil L,+1.30
+Lakshmi Vilas Ba,+1.30
+ACCEL L,+1.28
+Marico Ltd.,+1.25
+Thirani Projects,+1.25
+Sheela Foam,+1.24
+Just Dial,+1.23
+Alpa Laboratories Lt,+1.22
+Canara Bank,+1.22
+Heidelberg Cement In,+1.12
+Riddhi Siddhi Gluco,+1.12
+Upsurge Investme,+1.11
+Can Fin Homes,+1.11
+Sterling Tools L,+1.07
+Aarti Ind. Ltd,+1.07
+Indiabulls Housing F,+1.02
+Omaxe Ltd.,+1.02
+T T Ltd.,+1.01
+Elegant Marbles,+1.01
+Colinz Laborator,+1.00
+Haryana Leather,+1.00
+PDS Multi. Fashions,+0.94
+R Systems Internat.,+0.93
+LT Foods Ltd.,+0.92
+Mitshi India L,+0.91
+Engineers India,+0.90
+Syngene Internationa,+0.90
+Cybermt Infotek,+0.89
+Crompton Greaves Con,+0.89
+Birla Tyres,+0.86
+Lupin Ltd.,+0.85
+Expo Gas Contain,+0.78
+GTN Textiles,+0.75
+Oriental Veneer,+0.75
+Vishal Fabrics Ltd.,+0.74
+Castrol India,+0.71
+Lokesh Machines,+0.68
+NEL Holdings,+0.67
+Akar Auto Industries,+0.65
+Jai Corp Ltd.,+0.62
+Natco Pharma,+0.58
+Balmer Lawrie Invest,+0.57
+L&T Infotech,+0.56
+James Warren Tea,+0.53
+Lyka Labs,+0.53
+Century Extru.,+0.52
+Super Tex Indust,+0.51
+Orient Beverages,+0.51
+Capital Trust Lt,+0.51
+L&T Technology Serv,+0.47
+Symphony,+0.45
+Mishra Dhatu Nig,+0.43
+Tokyo Plast Inte,+0.42
+BSL Ltd,+0.41
+Sequent Scientific,+0.37
+Sadhana Nitro,+0.31
+Murudeshwar Cer.,+0.31
+East West Holdings,+0.24
+Comfort Intech,+0.24
+Veejay Lakshmi E,+0.23
+Info Edge (India),+0.22
+King Infra Ventures,+0.20
+Foods & Inns,+0.19
+Pix Transmission,+0.19
+S H Kelkar & Company,+0.18
+GeeCee Ventures,+0.14
+Bajaj Finserv Ltd.,+0.13
+Nile,+0.11
+Star Paper Mills,+0.10
+Bharat Agri Fert & R,+0.10
+Vaibhav Global,+0.10
+ICICI Securities,+0.05
