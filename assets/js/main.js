@@ -56,7 +56,6 @@ function chatbotToggle()
 
   function insertMessage() {
     msg = $('.message-input').val();
-    console.log(msg)
     if ($.trim(msg) == '') {
       return false;
     }
@@ -90,3 +89,25 @@ function chatbotToggle()
   });
 
   
+  var logged=false;
+  if(logged)
+  {
+    var list=document.getElementsByClassName('loggedout-nav')
+    console.log(list)
+    for(var i=0;i<list.length;++i)
+    {
+      list[i].classList.toggle('nodisplay')
+      list[i].classList.toggle('hvr-underline-from-center')
+  
+    }
+  }
+  else
+  {
+    var list=document.querySelectorAll('.loggedin-nav')
+    for(var i=0;i<list.length;++i)
+    {
+      list[i].classList.toggle('nodisplay')
+      list[i].classList.toggle('hvr-underline-from-center')
+  
+    }
+  }  
