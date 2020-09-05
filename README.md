@@ -52,4 +52,4 @@ $ python3 manage.py runserver
 
 
 
-<a href="https://ibb.co/B3kZcPG"><img src="https://i.ibb.co/T2y8YT1/project-Screenshot3.png" alt="project-Screenshot3" border="0"></a>
+
