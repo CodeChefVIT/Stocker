@@ -38,9 +38,9 @@ $ python3 manage.py runserver
 ```
 
 ## Contributors
-- <a href="https://github.com/<neilrathi17">Neil Rathi</a>
-- <a href="https://github.com/<Bhard27">Pranjal Bhardwaj</a>
-- <a href="https://github.com/<hpb1">Hari Prashant</a>
+- <a href="https://github.com/neilrathi17">Neil Rathi</a>
+- <a href="https://github.com/Bhard27">Pranjal Bhardwaj</a>
+- <a href="https://github.com/hpb1">Hari Prashant</a>
 	
 ## License
 
