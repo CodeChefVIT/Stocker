@@ -19,3 +19,7 @@ def parsePrice():
 
 while True:
     print('The current price is: '+str(parsePrice()))
+    
+    
+    #Since the market is closed right now, it's giving out the same value
+    
