@@ -14,9 +14,9 @@ from yahoofinancials import YahooFinancials
 def plot(X):
     ticker = yf.Ticker(X)
 
-    tsla_df = ticker.history(period="max")
+    stock_df = ticker.history(period="max")
 
-    tsla_df['Close'].plot(title="Stock price")
+    stock_df['Close'].plot(title="Stock price")
 
 n = input()    
 plot(n)
