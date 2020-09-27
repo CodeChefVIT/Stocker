@@ -1,4 +1,5 @@
 asgiref==3.2.3
+beautifulsoup4==4.9.1s
 dj-database-url==0.5.0
 Django==3.0.3
 django-cors-headers==3.5.0
@@ -7,6 +8,9 @@ django-templated-mail==1.1.1
 djangorestframework==3.11.0
 djoser==2.0.3
 gunicorn==20.0.4
+lxml==4.5.2
+numpy==1.19.2
+pandas==1.1.2
 psycopg2==2.8.5
 pytz==2019.3
 sqlparse==0.3.0
