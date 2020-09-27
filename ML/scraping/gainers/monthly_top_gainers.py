@@ -15,14 +15,29 @@ def monthly_gainers():
 
     dfs = pd.read_html('https://money.rediff.com/gainers/bse/monthly',header=0)
     for df in dfs[:-1]:
-        print(df)
+        df=df
 
     df['% Change'] = df['% Change'].str.replace(' ', "")
-    df1 = df[['Company', '% Change']]
-    print(df1)
-    df1.to_csv('monthly_top_gainers.csv', index=False)
+    df1 = df[['Company', '% Change', 'Current Price (Rs)']][:10]
+    data = {}
+    col = list(df1)
+    for i in range(10):
+        current = 'Company {}'.format(i+1)
+        data[current] = {}
+        c=0
+        for j in col:
+            if c==0:
+                data[current]['Company Name'] = df[j][i]
+            elif c==1:
+                data[current]['% Change'] = df[j][i]
+            else:
+                data[current]['Current Price (Rs)'] = df[j][i]
+                c+=1
+    return data
     
-monthly_gainers()
+    df1.to_csv('monthly_top_gainers.csv', index=False)
+
+#monthly_gainers()
 
 
 def plot_monthly_gainers():
@@ -32,5 +47,5 @@ def plot_monthly_gainers():
     x3 = data_monthly_gainers_final.plot.bar(x = 'Company', y = '% Change', title = 'Monthly Top Gainers', color='Black')
     plt.savefig('monthly_top_gainers.png', bbox_inches='tight')
     plt.show(x3)
-    
+
 plot_monthly_gainers()
