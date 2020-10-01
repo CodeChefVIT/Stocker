@@ -1,10 +1,10 @@
 var div=document.querySelector('.content')
+checker();
 
 
-function add()
-{
-  
-}
+
+ 
+
 function categories(value)
 {
  alert(value)
@@ -88,26 +88,33 @@ function chatbotToggle()
 
   });
 
+ 
+
+  function checker()
+{
   
-  var logged=false;
-  if(logged)
-  {
-    var list=document.getElementsByClassName('loggedout-nav')
-    console.log(list)
-    for(var i=0;i<list.length;++i)
+  var checkerlog=localStorage.getItem('logged')
+  console.log(checkerlog)
+    if(checkerlog==='true')
     {
-      list[i].classList.toggle('nodisplay')
-      list[i].classList.toggle('hvr-underline-from-center')
-  
+     
+        loggedout();
     }
-  }
-  else
-  {
+}
+
+function loggedout()
+{
     var list=document.querySelectorAll('.loggedin-nav')
+   
     for(var i=0;i<list.length;++i)
     {
       list[i].classList.toggle('nodisplay')
-      list[i].classList.toggle('hvr-underline-from-center')
   
     }
-  }  
+    var list=document.getElementsByClassName('loggedout-nav')
+ 
+     for(var i=0;i<list.length;++i)
+     {
+       list[i].classList.toggle('nodisplay')
+     }
+}
