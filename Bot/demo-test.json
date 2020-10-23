@@ -1,222 +1,222 @@
 {
   "rasa_nlu_data": {
-	
+
     "intent_examples": [
       {
-        "text": "hey", 
+        "text": "hey",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "yo", 
+        "text": "yo",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "howdy", 
+        "text": "howdy",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "hey there", 
+        "text": "hey there",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "hello", 
+        "text": "hello",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "hi", 
+        "text": "hi",
         "intent": "greet"
-      }, 
-	  
+      },
+
       {
-        "text": "i'm looking for stock prices", 
+        "text": "i'm looking for stock prices",
         "intent": "search_price"
-      }, 
+      },
       {
-        "text": "i'm searching for real-time quotes", 
-        "intent": "search_price"
-      }, 
-	  {
-        "text": "i'd like to check share prices", 
-        "intent": "search_price"
-      }, 
-      {
-        "text": "show me real-time quotes", 
+        "text": "i'm searching for real-time quotes",
         "intent": "search_price"
       },
 	  {
-        "text": "show me the price", 
+        "text": "i'd like to check share prices",
         "intent": "search_price"
-      }, 	  
-	  {
-        "text": "i want to check stock prices", 
-        "intent": "search_price"
-      }, 
+      },
       {
-        "text": "i wish to see some share prices", 
+        "text": "show me real-time quotes",
         "intent": "search_price"
-      }, 
+      },
 	  {
-        "text": "show me the price of MSFT", 
+        "text": "show me the price",
         "intent": "search_price"
-      }, 
+      },
+	  {
+        "text": "i want to check stock prices",
+        "intent": "search_price"
+      },
       {
-        "text": "display TSLA's stock price", 
+        "text": "i wish to see some share prices",
         "intent": "search_price"
       },
 	  {
-        "text": "let me see APLL's price", 
+        "text": "show me the price of MSFT",
+        "intent": "search_price"
+      },
+      {
+        "text": "display TSLA's stock price",
         "intent": "search_price"
       },
 	  {
-        "text": "price of stock", 
+        "text": "let me see APLL's price",
         "intent": "search_price"
       },
 	  {
-        "text": "price", 
+        "text": "price of stock",
+        "intent": "search_price"
+      },
+	  {
+        "text": "price",
         "intent": "search_price"
       },
 
 	  {
-        "text": "i'm looking for stock volumes", 
-        "intent": "search_volume"
-      }, 
-	  {
-        "text": "i'm looking for stock volume of TSLA", 
-        "intent": "search_volume"
-      }, 
-      {
-        "text": "i'm searching for stock turnover", 
-        "intent": "search_volume"
-      }, 
-      {
-        "text": "show me stock volumes", 
-        "intent": "search_volume"
-      }, 
-	  {
-        "text": "display share volumes", 
-        "intent": "search_volume"
-      }, 
-	  {
-        "text": "i want to see some stock volumes", 
-        "intent": "search_volume"
-      }, 
-      {
-        "text": "i'd like to check stock turnover", 
-        "intent": "search_volume"
-      }, 
-	  {
-        "text": "i wish to see AMZN's turnover", 
+        "text": "i'm looking for stock volumes",
         "intent": "search_volume"
       },
 	  {
-        "text": "display stock volume of MSFT", 
+        "text": "i'm looking for stock volume of TSLA",
         "intent": "search_volume"
       },
       {
-        "text": "volume of stock", 
+        "text": "i'm searching for stock turnover",
+        "intent": "search_volume"
+      },
+      {
+        "text": "show me stock volumes",
         "intent": "search_volume"
       },
 	  {
-        "text": "volume", 
+        "text": "display share volumes",
         "intent": "search_volume"
       },
-	  
 	  {
-        "text": "i'm looking for stock values", 
-        "intent": "search_value"
-      }, 
+        "text": "i want to see some stock volumes",
+        "intent": "search_volume"
+      },
       {
-        "text": "i'm searching for stock market cap", 
-        "intent": "search_value"
-      }, 
+        "text": "i'd like to check stock turnover",
+        "intent": "search_volume"
+      },
 	  {
-        "text": "i am looking for share values", 
+        "text": "i wish to see AMZN's turnover",
+        "intent": "search_volume"
+      },
+	  {
+        "text": "display stock volume of MSFT",
+        "intent": "search_volume"
+      },
+      {
+        "text": "volume of stock",
+        "intent": "search_volume"
+      },
+	  {
+        "text": "volume",
+        "intent": "search_volume"
+      },
+
+	  {
+        "text": "i'm looking for stock values",
         "intent": "search_value"
       },
       {
-        "text": "display the market value of shares", 
-        "intent": "search_value"
-      }, 
-	  {
-        "text": "show me the market capitalization of shares", 
-        "intent": "search_value"
-      }, 
-	  {
-        "text": "show me APLL's market value", 
-        "intent": "search_value"
-      }, 
-	  {
-        "text": "i want to see some stock capitalization", 
-        "intent": "search_value"
-      }, 
-      {
-        "text": "i wish to see some stock value", 
-        "intent": "search_value"
-      }, 
-	  {
-        "text": "i wish to see the stock value of AMZN", 
-        "intent": "search_value"
-      }, 
-      {
-        "text": "market cap", 
+        "text": "i'm searching for stock market cap",
         "intent": "search_value"
       },
 	  {
-        "text": "value", 
+        "text": "i am looking for share values",
         "intent": "search_value"
       },
-	  
+      {
+        "text": "display the market value of shares",
+        "intent": "search_value"
+      },
 	  {
-        "text": "MSFT", 
-        "intent": "specify_company"
-      },  
+        "text": "show me the market capitalization of shares",
+        "intent": "search_value"
+      },
 	  {
-        "text": "APPL", 
+        "text": "show me APLL's market value",
+        "intent": "search_value"
+      },
+	  {
+        "text": "i want to see some stock capitalization",
+        "intent": "search_value"
+      },
+      {
+        "text": "i wish to see some stock value",
+        "intent": "search_value"
+      },
+	  {
+        "text": "i wish to see the stock value of AMZN",
+        "intent": "search_value"
+      },
+      {
+        "text": "market cap",
+        "intent": "search_value"
+      },
+	  {
+        "text": "value",
+        "intent": "search_value"
+      },
+
+	  {
+        "text": "MSFT",
         "intent": "specify_company"
       },
 	  {
-        "text": "TSLA", 
+        "text": "APPL",
         "intent": "specify_company"
-      }, 
+      },
 	  {
-        "text": "AMZN", 
+        "text": "TSLA",
         "intent": "specify_company"
-      }, 
-     
-      {
-        "text": "bye", 
-        "intent": "exit"
-      }, 
-      {
-        "text": "goodbye", 
-        "intent": "exit"
-      }, 
-      {
-        "text": "good bye", 
-        "intent": "exit"
-      }, 
-      {
-        "text": "stop", 
-        "intent": "exit"
-      }, 
-      {
-        "text": "end", 
-        "intent": "exit"
-      }, 
+      },
 	  {
-        "text": "exit", 
+        "text": "AMZN",
+        "intent": "specify_company"
+      },
+
+      {
+        "text": "bye",
         "intent": "exit"
       }, 
-	  {
-        "text": "finish", 
+      {
+        "text": "goodbye",
         "intent": "exit"
-      }, 
-	  {
-        "text": "let's finish", 
+      },
+      {
+        "text": "good bye",
         "intent": "exit"
-      }, 
+      },
+      {
+        "text": "stop",
+        "intent": "exit"
+      },
+      {
+        "text": "end",
+        "intent": "exit"
+      },
 	  {
-        "text": "let's exit", 
+        "text": "exit",
+        "intent": "exit"
+      },
+	  {
+        "text": "finish",
+        "intent": "exit"
+      },
+	  {
+        "text": "let's finish",
+        "intent": "exit"
+      },
+	  {
+        "text": "let's exit",
         "intent": "exit"
       }
     ]
