@@ -29,7 +29,7 @@ SHOW_VOLUME = 12
 SHOW_VALUE = 13
 
 policy = {
-    (INIT, "greet"): (INIT, "Hi there, I'm Baymax. What can I do for you?", None),
+    (INIT, "greet"): (INIT, "Hi there, I'm Stocker Bot. What can I do for you?", None),
     (INIT, "search_price"): (SEARCH_PRICE, "I see. so, which company?", None),
     (INIT, "search_specific_price"): (GIVE_RESULTS, "Here are the results:", SHOW_PRICE),
     (INIT, "search_volume"): (SEARCH_VOLUME, "I see. so, which company?", None),
