@@ -1,8 +1,7 @@
 
 //----------------------------------------calculator---------------------------------------------------
 var final=document.querySelector('#final-value')
-
-
+checker();
 var slider1 = document.getElementById("investment-slider");
 var output1 = document.getElementById("investment-value");
 output1.value = slider1.value; 
@@ -75,4 +74,32 @@ else
     list[i].classList.toggle('hvr-underline-from-center')
 
   }
+}
+function checker()
+{
+  
+  var checkerlog=localStorage.getItem('logged')
+  console.log(checkerlog)
+    if(checkerlog==='true')
+    {
+     
+        loggedout();
+    }
+}
+
+function loggedout()
+{
+    var list=document.querySelectorAll('.loggedin-nav')
+   
+    for(var i=0;i<list.length;++i)
+    {
+      list[i].classList.toggle('nodisplay')
+  
+    }
+    var list=document.getElementsByClassName('loggedout-nav')
+ 
+     for(var i=0;i<list.length;++i)
+     {
+       list[i].classList.toggle('nodisplay')
+     }
 }

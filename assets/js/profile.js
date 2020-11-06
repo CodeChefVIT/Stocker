@@ -1,4 +1,5 @@
 var userContent=document.getElementById('user-content-my-profile')
+checker();
 function profileCards()
 {
 
@@ -17,4 +18,32 @@ function showMoreInfo()
   console.log('showing')
  var div=$('.company-more-info')
   div[0].classList.toggle('show')
+}
+function checker()
+{
+  
+  var checkerlog=localStorage.getItem('logged')
+  console.log(checkerlog)
+    if(checkerlog==='true')
+    {
+     
+        loggedout();
+    }
+}
+
+function loggedout()
+{
+    var list=document.querySelectorAll('.loggedin-nav')
+   
+    for(var i=0;i<list.length;++i)
+    {
+      list[i].classList.toggle('nodisplay')
+  
+    }
+    var list=document.getElementsByClassName('loggedout-nav')
+ 
+     for(var i=0;i<list.length;++i)
+     {
+       list[i].classList.toggle('nodisplay')
+     }
 }

@@ -50,7 +50,8 @@ function login()
       if(this.status==200)
       {
         var data=JSON.parse(this.responseText);
-        localStorage.setItem('TOKEN',"JWT "+data.token);
+        
+        localStorage.setItem('TOKEN',"Token "+data.auth_token);
         localStorage.setItem('logged',true);
      
         console.log(data)
