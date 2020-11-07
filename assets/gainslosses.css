@@ -66,12 +66,13 @@ border-right:none;
 /* --------------------------------------------------------------------------- */
 .brand
 {
-  color: black;
+  color: white;
   text-align: center;
   font-weight: bold;
   font-size: 22px;
   padding-bottom: 12px;
   border-bottom: 1px solid darkred;
+  
  
 }
 .percentage
@@ -111,13 +112,13 @@ padding-right: 5px;
 .rest
 {
   width: 70%;
-  background-color:none;
   border-radius: 5px;
   padding: 5px;
   padding-bottom: 10px;
     margin-bottom: 15px;
   border: 1px solid black;
-  background-color: white;
+  background-color: black;
+  color:white;
   display:inline-block;
   
   /* background-color: rgba(211, 210, 210, 0); */
@@ -176,7 +177,7 @@ padding-right: 5px;
 }
 .tags
 {
-  color: black;
+  color: white;
 }
 #listHolder
 {
