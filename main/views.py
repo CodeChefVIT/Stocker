@@ -1,9 +1,12 @@
+import sys
 from django.shortcuts import render
 from rest_framework import status, permissions
 from rest_framework.views import APIView
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
-from .scraping.gainers import daily_gainers, weekly_gainers, monthly_gainers
+from scraping.gainers import daily_gainers, weekly_gainers, monthly_gainers
+from scraping.losers import daily_losers, weekly_losers, monthly_losers
+sys.path.append("..")
 # Create your views here.
 
 class DailyGainerView(APIView):
@@ -28,4 +31,28 @@ class MonthlyGainerView(APIView):
 
     def get(self, request):
         data = monthly_gainers()
+        return Response(data, status=status.HTTP_200_OK)
+
+class DailyLoserView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+    parser_classes = [JSONParser]
+
+    def get(self, request):
+        data = daily_losers()
+        return Response(data, status=status.HTTP_200_OK)
+
+class WeeklyLoserView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+    parser_classes = [JSONParser]
+
+    def get(self, request):
+        data = weekly_losers()
+        return Response(data, status=status.HTTP_200_OK)
+
+class MonthlyLoserView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+    parser_classes = [JSONParser]
+
+    def get(self, request):
+        data = monthly_losers()
         return Response(data, status=status.HTTP_200_OK)
