@@ -83,6 +83,14 @@ display:inline;
 float: left;
 
 }
+.percentageloss
+{
+  color: red;
+padding-left: 10px;
+font-size: 20px;
+display:inline;
+float: left;
+}
 .price
 {
 
@@ -91,7 +99,14 @@ float: left;
 display: inline;
 float: right;
 padding-right: 5px;
-  
+}
+.priceloss
+{
+  color:red;
+  font-size: 20px;
+display: inline;
+float: right;
+padding-right: 5px;
 }
 .rest
 {
@@ -107,10 +122,7 @@ padding-right: 5px;
   
   /* background-color: rgba(211, 210, 210, 0); */
 }
-.rest:hover
-{
-  background-color: rgba(211, 210, 210, 1);
-}
+
 
 .timeperiod
 {
@@ -123,8 +135,10 @@ padding-right: 5px;
   display: inline-block;
   margin: 20px;
   color:teal;
+  border:1px solid teal;
   size: 30px;
-  width: 150px;
+  height: 30px;
+  width: 170px;
   border-radius: 4px;
   background-color: black;
   border: 1px solid black;
