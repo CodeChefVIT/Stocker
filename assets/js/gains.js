@@ -1,13 +1,67 @@
 var listcontent=$("#listHolder");
 checker();
-daily();
-function daily()
+var titletype='GAINERS'
+var titletime='DAILY'
+var type=1;
+var time='daily';
+timeperiod(type);
+var url
+function timeperiod(period)
+{
+    if(typeof period==='number')
+    {
+        type=period;
+        if(type==1)
+        changeTitleType('GAINERS')
+        else
+        changeTitleType('LOSERS')
+    }
+       
+    else
+    {
+        time=period;
+        if(time=='daily')
+        changeTitleTime('DAILY');
+        else if(time==='weekly')
+        changeTitleTime('WEEKLY');
+        else
+        changeTitleTime('MONTHLY')
+    }
+    
+    if(time=='daily')
+    {
+        if(type==1)
+        url='https://stocker-cc.herokuapp.com/api/gain/daily/'
+        else
+        url='https://stocker-cc.herokuapp.com/api/lose/daily/'
+        daily(url)
+    }
+    else if(time=='weekly')
+    {
+        if(type==1)
+        url='https://stocker-cc.herokuapp.com/api/gain/weekly/';
+        else
+        url='https://stocker-cc.herokuapp.com/api/lose/weekly/';
+        weekly(url)
+    }
+    else if(time=='monthly')
+    {
+        if(type==1)
+        url='https://stocker-cc.herokuapp.com/api/gain/monthly/'
+        else
+        url='https://stocker-cc.herokuapp.com/api/lose/monthly/'
+        monthly(url)
+    }
+
+}
+
+
+function daily(url)
 {
     destroyer()
-    changeTitle("DAILY")
     var jwt = localStorage.getItem('TOKEN')
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://stocker-cc.herokuapp.com/api/gain/daily/", true)
+    xhr.open("GET", url, true)
     xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.setRequestHeader('Authorization',jwt)
 
@@ -29,14 +83,12 @@ function daily()
 
 
 }
-function weekly()
+function weekly(url)
 {
     destroyer();
-    changeTitle("WEEKLY")
-
     var jwt = localStorage.getItem('TOKEN')
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://stocker-cc.herokuapp.com/api/gain/weekly/", true)
+    xhr.open("GET", url, true)
     xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.setRequestHeader('Authorization',jwt)
 
@@ -58,14 +110,12 @@ function weekly()
 
 
 }
-function monthly()
+function monthly(url)
 {
     destroyer();
-    changeTitle("MONTHLY")
-
     var jwt = localStorage.getItem('TOKEN')
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://stocker-cc.herokuapp.com/api/gain/monthly/", true)
+    xhr.open("GET", url, true)
     xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.setRequestHeader('Authorization',jwt)
 
@@ -125,11 +175,20 @@ function destroyer()
                 list[i].remove();			
             }
  }
- function changeTitle(string)
+ //-----------------------------------------------------------------------------------------------------
+
+ function changeTitleTime(string)
  {
      var element=document.querySelector('#title')
-    element.innerHTML='<h4 class="text-center text-white display-3 "> TOP 10 <span id="titlechange" class="animate__animated animate__bounceInDown">'+string+'</span> GAINERS</h4> '
+     titletime=string;
+    element.innerHTML='<h4 class="text-center text-white display-3 "> TOP 10&nbsp;<span id="titlechange" class="animate__animated animate__bounceInDown">'+string+'&nbsp;</span><span id="titlechange">'+titletype+'</span></h4> '
     
+ }
+ function changeTitleType(string)
+ {
+    var element=document.querySelector('#title')
+    titletype=string; 
+    element.innerHTML='<h4 class="text-center text-white display-3 "> TOP 10 &nbsp;<span id="titlechange">'+titletime+'&nbsp;</span><span id="titletypechange" class="animate__animated animate__bounceInUp"> '+string+'</span></h4> '    
  }
 //  ----------------------------------------------------------------------------------------------
  function checker()

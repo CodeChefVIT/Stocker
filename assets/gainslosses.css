@@ -138,7 +138,16 @@ padding-right: 5px;
 {
   width: max-content;
   display: inline-block;
+  font-weight: bolder;
+ 
 }
+#titletypechange
+{
+  width: max-content;
+  display: inline-block;
+  font-weight: bolder;
+}
+
 .nodisplay
 {
   display:none

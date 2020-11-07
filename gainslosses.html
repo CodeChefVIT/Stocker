@@ -69,16 +69,16 @@
 
                 <div class="container" style="margin:auto;width: 100%;">
                     <div class="container" style="text-align: center;">
-                        <button class="btn btn-lg btn-outline-success" style="margin: 5px;" >GAINERS</button>
-                        <button class="btn btn-lg btn-outline-danger" style="margin: 5px;">LOSERS</button>
+                        <button class="btn btn-lg btn-outline-success" style="margin: 5px;" onclick="timeperiod(1)">GAINERS</button>
+                        <button class="btn btn-lg btn-outline-danger" style="margin: 5px;" onclick="timeperiod(0)">LOSERS</button>
 
                     </div>
                     
                         <div class="container timeperiod" >
                             <p style='text-align: center;'> 
-                            <button class="time" onclick="daily()">DAILY</button>
-                            <button class="time" onclick="weekly()">WEEKLY</button>
-                             <button class="time" onclick="monthly()">MONTHLY</button></p>
+                            <button class="time" onclick="timeperiod('daily')">DAILY</button>
+                            <button class="time" onclick="timeperiod('weekly')">WEEKLY</button>
+                             <button class="time" onclick="timeperiod('monthly')">MONTHLY</button></p>
          
                          </div>
                     
