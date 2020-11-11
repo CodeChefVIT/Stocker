@@ -71,17 +71,18 @@ border-right:none;
   font-weight: bold;
   font-size: 22px;
   padding-bottom: 12px;
-  border-bottom: 1px solid darkred;
-  
- 
+  border-bottom: 1px solid gold;
+  width: 80%;
+  margin: 5px auto;
 }
 .percentage
 {
-color: #1c7f1a;
+color: #28a026;
 padding-left: 10px;
 font-size: 20px;
 display:inline;
 float: left;
+padding-right: 5px;
 
 }
 .percentageloss
@@ -91,15 +92,16 @@ padding-left: 10px;
 font-size: 20px;
 display:inline;
 float: left;
+padding-right: 5px;
 }
 .price
 {
 
-  color:#1c7f1a;
+  color:#28a026;
   font-size: 20px;
 display: inline;
 float: right;
-padding-right: 5px;
+padding-right:10px;
 }
 .priceloss
 {
@@ -187,6 +189,30 @@ padding-right: 5px;
   padding: 20px;
 }
 
+@media(max-width:950px)
+{
+  .price
+  {
+    display: block;
+    float: none;
+  }
+  .percentage
+  {
+    display: block;
+    float:none;
+
+  }
+  .priceloss
+  {
+    display: block;
+    float:none
+  }
+  .percentageloss
+  {
+    float: none;
+  }
+}
+
 
 @media(max-width:700px)
 {
@@ -199,15 +225,6 @@ padding-right: 5px;
     width: 100%;
     margin-bottom:10px;
   }
-  .price
-  {
-    display: block;
-    float: none;
-  }
-  .percentage
-  {
-    float:none;
 
-  }
   
 }

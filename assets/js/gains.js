@@ -69,7 +69,7 @@ function request(url)
         if(this.status==200)
         {
             var data = JSON.parse(this.responseText)
-            console.log(data)
+             console.log(data)
             makelist(data)
         }
         else if(this.status==400){
