@@ -34,7 +34,7 @@ function timeperiod(period)
         url='https://stocker-cc.herokuapp.com/api/gain/daily/'
         else
         url='https://stocker-cc.herokuapp.com/api/lose/daily/'
-        daily(url)
+        request(url)
     }
     else if(time=='weekly')
     {
@@ -42,7 +42,7 @@ function timeperiod(period)
         url='https://stocker-cc.herokuapp.com/api/gain/weekly/';
         else
         url='https://stocker-cc.herokuapp.com/api/lose/weekly/';
-        weekly(url)
+        request(url)
     }
     else if(time=='monthly')
     {
@@ -50,13 +50,11 @@ function timeperiod(period)
         url='https://stocker-cc.herokuapp.com/api/gain/monthly/'
         else
         url='https://stocker-cc.herokuapp.com/api/lose/monthly/'
-        monthly(url)
+        request(url)
     }
 
 }
-
-
-function daily(url)
+function request(url)
 {
     destroyer()
     var jwt = localStorage.getItem('TOKEN')
@@ -71,6 +69,7 @@ function daily(url)
         if(this.status==200)
         {
             var data = JSON.parse(this.responseText)
+             console.log(data)
             makelist(data)
         }
         else if(this.status==400){
@@ -80,62 +79,8 @@ function daily(url)
             unauthorised();
         }
     }
-
-
 }
-function weekly(url)
-{
-    destroyer();
-    var jwt = localStorage.getItem('TOKEN')
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", url, true)
-    xhr.setRequestHeader('Content-Type', 'application/json')
-    xhr.setRequestHeader('Authorization',jwt)
 
-    xhr.send()
-    xhr.onload=function()
-    {
-        if(this.status==200)
-        {
-            var data = JSON.parse(this.responseText)
-            makelist(data)
-        }
-        else if(this.status==400){
-            alert('Error in getting items')
-        }
-        else if(this.status==401){
-            console.log('Please authenticate user')
-        }
-    }
-
-
-}
-function monthly(url)
-{
-    destroyer();
-    var jwt = localStorage.getItem('TOKEN')
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", url, true)
-    xhr.setRequestHeader('Content-Type', 'application/json')
-    xhr.setRequestHeader('Authorization',jwt)
-
-    xhr.send()
-    xhr.onload=function()
-    {
-        if(this.status==200)
-        {
-            var data = JSON.parse(this.responseText)
-            makelist(data)
-        }
-        else if(this.status==400){
-            alert('Error in getting items')
-        }
-        else if(this.status==401){
-            alert('Please authenticate user')
-        }
-    }
-
-}
 function makelist(obj)
 {
   for(var i=1;i<=10;++i)
@@ -147,7 +92,8 @@ function makelist(obj)
 function creator(obj,i)
 {
     var div=document.createElement('div');
-	div.classList.add("rest");
+    div.classList.add("rest");
+    div.classList.add('hvr-float')
     listcontent.append(div);
     var company=document.createElement('h4');
 	company.textContent=obj['Company '+i]["Company Name"];
@@ -156,11 +102,17 @@ function creator(obj,i)
     var percentage=document.createElement('p');
     var para=document.createElement('div');
     percentage.textContent=obj['Company '+i]['% Change'];
-    percentage.classList.add('percentage');
     percentage.insertAdjacentHTML("afterbegin", "<span class='tags'>% change in price: </span>");
+    if(type==0)
+    percentage.classList.add('percentageloss')
+    else
+    percentage.classList.add('percentage');
     para.append(percentage);
     var price=document.createElement('p');
     price.textContent=obj['Company '+i]['Current Price (Rs)'];
+    if(type==0)
+    price.classList.add('priceloss')
+    else
     price.classList.add('price');
     price.insertAdjacentHTML("afterbegin", "<span class='tags'>Current price (Rs): </span>");
 

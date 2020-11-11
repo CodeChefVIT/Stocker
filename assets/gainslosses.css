@@ -66,51 +66,66 @@ border-right:none;
 /* --------------------------------------------------------------------------- */
 .brand
 {
-  color: black;
+  color: white;
   text-align: center;
   font-weight: bold;
   font-size: 22px;
   padding-bottom: 12px;
-  border-bottom: 1px solid darkred;
- 
+  border-bottom: 1px solid gold;
+  width: 80%;
+  margin: 5px auto;
 }
 .percentage
 {
-color: #1c7f1a;
+color: #28a026;
 padding-left: 10px;
 font-size: 20px;
 display:inline;
 float: left;
+padding-right: 5px;
 
+}
+.percentageloss
+{
+  color: red;
+padding-left: 10px;
+font-size: 20px;
+display:inline;
+float: left;
+padding-right: 5px;
 }
 .price
 {
 
-  color:#1c7f1a;
+  color:#28a026;
+  font-size: 20px;
+display: inline;
+float: right;
+padding-right:10px;
+}
+.priceloss
+{
+  color:red;
   font-size: 20px;
 display: inline;
 float: right;
 padding-right: 5px;
-  
 }
 .rest
 {
   width: 70%;
-  background-color:none;
   border-radius: 5px;
   padding: 5px;
   padding-bottom: 10px;
     margin-bottom: 15px;
   border: 1px solid black;
-  background-color: white;
+  background-color: black;
+  color:white;
   display:inline-block;
   
   /* background-color: rgba(211, 210, 210, 0); */
 }
-.rest:hover
-{
-  background-color: rgba(211, 210, 210, 1);
-}
+
 
 .timeperiod
 {
@@ -123,8 +138,10 @@ padding-right: 5px;
   display: inline-block;
   margin: 20px;
   color:teal;
+  border:1px solid teal;
   size: 30px;
-  width: 150px;
+  height: 30px;
+  width: 170px;
   border-radius: 4px;
   background-color: black;
   border: 1px solid black;
@@ -162,7 +179,7 @@ padding-right: 5px;
 }
 .tags
 {
-  color: black;
+  color: white;
 }
 #listHolder
 {
@@ -170,6 +187,30 @@ padding-right: 5px;
   text-align: center;
   border-top:1px solid teal;
   padding: 20px;
+}
+
+@media(max-width:950px)
+{
+  .price
+  {
+    display: block;
+    float: none;
+  }
+  .percentage
+  {
+    display: block;
+    float:none;
+
+  }
+  .priceloss
+  {
+    display: block;
+    float:none
+  }
+  .percentageloss
+  {
+    float: none;
+  }
 }
 
 
@@ -184,15 +225,6 @@ padding-right: 5px;
     width: 100%;
     margin-bottom:10px;
   }
-  .price
-  {
-    display: block;
-    float: none;
-  }
-  .percentage
-  {
-    float:none;
 
-  }
   
 }
