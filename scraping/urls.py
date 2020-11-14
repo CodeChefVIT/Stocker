@@ -1,6 +1,6 @@
 from django.urls import path, include
 from .views import DailyGainerView, WeeklyGainerView, MonthlyGainerView, \
-    DailyLoserView, WeeklyLoserView, MonthlyLoserView
+    DailyLoserView, WeeklyLoserView, MonthlyLoserView, SectorDataView
 
 urlpatterns = [
     path('gain/daily/', DailyGainerView.as_view()),
@@ -9,4 +9,5 @@ urlpatterns = [
     path('lose/daily/', DailyLoserView.as_view()),
     path('lose/weekly/', WeeklyLoserView.as_view()),
     path('lose/monthly/', MonthlyLoserView.as_view()),
+    path('sector/<str:sector>/', SectorDataView.as_view()), 
 ]
