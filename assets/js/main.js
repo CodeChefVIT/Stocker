@@ -1,10 +1,6 @@
 var div=document.querySelector('.content')
 checker();
 
-
-
- 
-
 function categories(value)
 {
  alert(value)
@@ -16,24 +12,56 @@ function showMoreInfo()
   div[0].classList.toggle('show')
 }
 
-
-
-
-function makeCards()
+var obj={};
+function makeCards(obj)
 {
-
-  for(var i=0;i<5;++i)
+  for(var i=1;i<=5;++i)
   {
-    div.insertAdjacentHTML('beforeend','<div class="row aos-init aos-animate" data-aos="zoom-in"  data-aos-duration="500"><div class="col-sm-12 col-md-4"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>company</h5><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam hic debitis quo modi a distinctio minima beatae laboriosam. Corrupti nemo voluptas fugiat eaque exercitationem a dicta hic dignissimos fugit vel?</p><button class="btn btn-outline-success text-white" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-4"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>company</h5><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam hic debitis quo modi a distinctio minima beatae laboriosam. Corrupti nemo voluptas fugiat eaque exercitationem a dicta hic dignissimos fugit vel?</p><button class="btn btn-outline-success text-white" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-4"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>company</h5><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam hic debitis quo modi a distinctio minima beatae laboriosam. Corrupti nemo voluptas fugiat eaque exercitationem a dicta hic dignissimos fugit vel?</p><button class="btn btn-outline-success text-white" onclick="showMoreInfo()">More Info</button></div></div></div></div>' )
+    var percentage=document.createElement('p');
+    percentage.textContent=obj['Company '+i]['% Change'];
+    percentage.classList.add('percentage');
+    var price=document.createElement('p');
+    price.textContent=obj['Company '+i]['Current Price (Rs)'];
+    price.classList.add('price');
+    div.insertAdjacentHTML('beforeend','<div class=" row aos-init aos-animate col" data-aos="zoom-in pokemon"  data-aos-duration="500"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+i]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div></div>' )
     div.insertAdjacentHTML('beforeend','<br>')
   }
 }
+function requestt(url)
+{
+    destroy();
+    var jwt = localStorage.getItem('TOKEN')
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true)
+    xhr.setRequestHeader('Content-Type', 'application/json')
+    xhr.setRequestHeader('Authorization',jwt)
 
-makeCards()
+    xhr.send()
+    xhr.onload=function()
+    {
+        if(this.status==200)
+        {
+            var data = JSON.parse(this.responseText)
+            console.log(data);
+            makeCards(data)
 
+        }
+        else if(this.status==400){
+            alert('Error in getting items')
+        }
+        else if(this.status==401){
+            console.log('Please authenticate user')
+        }
+    }
+}
+
+
+
+ requestt('https://stocker-cc.herokuapp.com/api/sector/auto/')
+//makeCards()
 function destroy()
 {
-  var list=document.getElementsByClassName('row');
+  var list=document.getElementsByClassName('pokemon');
   for(var i=0;i<list.length;++i)
   {
     list[i].remove();
@@ -118,3 +146,11 @@ function loggedout()
        list[i].classList.toggle('nodisplay')
      }
 }
+
+
+
+$('.navbar-toggler').on('click', function(e) {
+  e.preventDefault();
+  var target = $(this).data('target');
+  $(target).toggleClass('hide') ;
+});
