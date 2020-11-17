@@ -649,12 +649,13 @@ color: black;
 -----------------------------------------------------------reccs---------------------------- */
 #sticky-sidebar {
 min-height: 100vh;
-transition: max-width 0.5s;
+transition: max-width 0.8s;
 overflow:hidden;
 width: fit-content;
 background-color: black;
 text-align: center;
 border-radius: 7px;
+width:27%;
 }
 #sticky-sidebar.hide {
 max-width:0;
@@ -693,8 +694,8 @@ font-weight: bold;
   color:teal;
   border: none;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom:10px;
+  margin-top: 8px;
+  margin-bottom:8px;
   width: 98%;
 }
 .sectorbutton:hover{
@@ -707,6 +708,15 @@ font-weight: bold;
   text-align: center;
   padding-right:0px;
   background-color: black;
+  position:relative
+}
+#authorization
+{
+  border: 2px solid teal;
+  background: black;
+  color: white;
+  width: fit-content ;
+  height: 220px;
 }
 
 /* -------------------------------- media query-------------------------------- */
@@ -755,10 +765,12 @@ div div h1
 {
   display:inline;
   border: 1px solid teal;
+
 }
 #sticky-sidebar
 {
-  width:500px;
+  width:60%;
+  z-index:9;
 }
 .content
 {

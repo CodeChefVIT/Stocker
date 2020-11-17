@@ -105,8 +105,7 @@
                 <hr style="color:white;">
                 <div class="container">
                   <div class="row">
-                      <div class="col-3 px-1" id="sticky-sidebar">
-                        
+                      <div class=" px-1" id="sticky-sidebar">
                         <div class="py-2 sticky-top">
                             <div class="nav flex-column">
                                 <h3 style="text-align: center; color: white;" >SECTORS</h3>
@@ -185,13 +184,18 @@
                          
                       </div>
                       <button class="navbar-toggler" type="button" data-target="#sticky-sidebar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="sector-toggler">
-                          <div style="font-size:40px;word-wrap: break-word;color: white;">S <br> E <br> C <br> T <br> O <br> R <br> S <br>                           
-                          </div>
+                          <!-- <div style="font-size:40px;word-wrap: break-word;color: white;">S <br> E <br> C <br> T <br> O <br> R <br> S <br>                           
+                          </div> -->
                           <!-- <span class="navbar-toggler-icon sidenav"></span> -->
                         </button>
                       <div class="content col" >
-                         
-                            <br>
+                        <div class="container nodisplay" id="authorization">
+                            <h5 style="padding:15px;"> YOU NEED TO BE LOGGED IN TO SEE THIS</h5> 
+                               <p class="text-center"><a href="login.html"><button class="btn btn-large btn-outline-success">LOGIN</button></a></p> 
+                                 <p class="text-center">Not Registered yet?</p> 
+                                 <p class="text-center"><a href="signup.html"><button class="btn btn-lg btn-outline-light">GET STARTED</button></a></p>
+                        </div>
+                           
                          
                           <div class="company-more-info animate__animated animate__fadeInDown">
                               <h4  class="text-danger text-center" style="padding: 5px;">Company name <span style="float: right; padding: 5px;" onclick="showMoreInfo()" class="hvr-grow" ><i class="fas fa-times"></i></span></h5></h4>

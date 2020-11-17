@@ -4,7 +4,7 @@ const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeig
 
 if(vw>700)
 {
-  showsectorbar()
+  showSectorbar()
 }
 else if(vw<700)
 {
@@ -37,7 +37,7 @@ function makeCards(obj)
     var price=document.createElement('p');
     price.textContent=obj['Company '+i]['Current Price (Rs)'];
     price.classList.add('price');
-    div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="500"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+(i+1)]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+(i+1)]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
+    div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="200"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+(i+1)]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+(i+1)]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
   
   }
 }
@@ -65,6 +65,7 @@ function requestt(url)
         }
         else if(this.status==401){
             console.log('Please authenticate user')
+            unauthorised();
         }
     }
 }
@@ -74,6 +75,11 @@ function sectorchoice(val)
 
   var url='https://stocker-cc.herokuapp.com/api/sector/'+val+'/';
   requestt(url)
+  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+  if(vw<700)
+  {
+    $('#sticky-sidebar').toggleClass('hide') ;
+  }
 
 
 }
@@ -167,6 +173,12 @@ function loggedout()
        list[i].classList.toggle('nodisplay')
      }
 }
+function unauthorised()
+{
+    var element=document.getElementById('authorization')
+    console.log(element)
+    element.classList.toggle('nodisplay')
+}
 
 //-----------------sector recs----------------------------
 
@@ -179,8 +191,7 @@ $('.navbar-toggler').on('click', function(e)
 
 $('.sectorbutton').on('click', function(e)
  {
-   console.log('hell')
-  e.preventDefault();
+     e.preventDefault();
   var target = $(this).data('target');
   $(target).toggleClass('hide') ;
 });
