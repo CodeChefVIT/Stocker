@@ -605,6 +605,7 @@ textarea:focus:-webkit-placeholder
 }
 
 
+
 /* -----------------------footer------------------------------------- */
 .footer-links
 {
@@ -648,10 +649,12 @@ color: black;
 -----------------------------------------------------------reccs---------------------------- */
 #sticky-sidebar {
 min-height: 100vh;
-transition: max-width 1s;
+transition: max-width 0.5s;
 overflow:hidden;
 width: fit-content;
 background-color: black;
+text-align: center;
+border-radius: 7px;
 }
 #sticky-sidebar.hide {
 max-width:0;
@@ -661,7 +664,7 @@ padding:0 !important;
 background-color: #000000;
 }
 
-.card-title
+.card-heading
 {
 text-align: center;
 color: gold;
@@ -682,6 +685,28 @@ font-weight: bold;
   color:white;
   size: 20px;
   margin: 0 auto;
+}
+.sectorbutton
+{
+  text-align:center;
+  background: transparent;
+  color:teal;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width: 98%;
+}
+.sectorbutton:hover{
+  background: teal;
+  color: black;
+}
+#sector-toggler
+{
+  display:none;
+  text-align: center;
+  padding-right:0px;
+  background-color: black;
 }
 
 /* -------------------------------- media query-------------------------------- */
@@ -726,6 +751,25 @@ div div h1
 {
  font-size: 20px;
 }
+#sector-toggler
+{
+  display:inline;
+  border: 1px solid teal;
+}
+#sticky-sidebar
+{
+  width:500px;
+}
+.content
+{
+  padding:0px;
+}
+.pekoms
+{
+  padding:0px;
+  margin:0px;
+}
+
 }
 
 

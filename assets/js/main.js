@@ -1,6 +1,20 @@
 var div=document.querySelector('.content')
-checker();
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 
+if(vw>700)
+{
+  showsectorbar()
+}
+else if(vw<700)
+{
+  hideSectorbar();
+}
+
+
+
+checker();
+sectorchoice('auto')
 function categories(value)
 {
  alert(value)
@@ -15,7 +29,7 @@ function showMoreInfo()
 var obj={};
 function makeCards(obj)
 {
-  for(var i=1;i<=5;++i)
+  for(var i=1;i<=10;i+=2)
   {
     var percentage=document.createElement('p');
     percentage.textContent=obj['Company '+i]['% Change'];
@@ -23,8 +37,8 @@ function makeCards(obj)
     var price=document.createElement('p');
     price.textContent=obj['Company '+i]['Current Price (Rs)'];
     price.classList.add('price');
-    div.insertAdjacentHTML('beforeend','<div class=" row aos-init aos-animate col" data-aos="zoom-in pokemon"  data-aos-duration="500"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><img src="" alt=""><h5 class="card-title"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+i]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div></div>' )
-    div.insertAdjacentHTML('beforeend','<br>')
+    div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="500"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+(i+1)]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+(i+1)]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
+  
   }
 }
 function requestt(url)
@@ -55,13 +69,20 @@ function requestt(url)
     }
 }
 
+function sectorchoice(val)
+{
+
+  var url='https://stocker-cc.herokuapp.com/api/sector/'+val+'/';
+  requestt(url)
 
 
- requestt('https://stocker-cc.herokuapp.com/api/sector/auto/')
-//makeCards()
+}
+
+
 function destroy()
 {
-  var list=document.getElementsByClassName('pokemon');
+  var list=document.querySelectorAll('.pekoms');
+  
   for(var i=0;i<list.length;++i)
   {
     list[i].remove();
@@ -109,14 +130,14 @@ function chatbotToggle()
 
 
 
-  $('.btn-lg').click(function() {
-    console.log('lol')
-    $('<div class="message">lolololollolololololololololololololololololol</div>').appendTo($('.message-container')).addClass('animate__animated animate__headShake');
-    scrollSmoothToBottom('messagingBox')
+  // $('.btn-lg').click(function() {
+  //   console.log('lol')
+  //   $('<div class="message">lolololollolololololololololololololololololol</div>').appendTo($('.message-container')).addClass('animate__animated animate__headShake');
+  //   scrollSmoothToBottom('messagingBox')
 
-  });
+  // });
 
- 
+//  ------------------------authorization--------------------
 
   function checker()
 {
@@ -147,10 +168,43 @@ function loggedout()
      }
 }
 
+//-----------------sector recs----------------------------
 
-
-$('.navbar-toggler').on('click', function(e) {
+$('.navbar-toggler').on('click', function(e)
+ {
   e.preventDefault();
   var target = $(this).data('target');
   $(target).toggleClass('hide') ;
 });
+
+$('.sectorbutton').on('click', function(e)
+ {
+   console.log('hell')
+  e.preventDefault();
+  var target = $(this).data('target');
+  $(target).toggleClass('hide') ;
+});
+
+
+$(window).resize(function() {
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+if(vw>700)
+{
+  showSectorbar();
+}
+else
+  hideSectorbar()
+});
+
+function showSectorbar()
+{
+  if(document.querySelector('#sticky-sidebar').classList.contains('hide'))
+  $('#sticky-sidebar').toggleClass('hide')
+}
+function hideSectorbar()
+{
+ 
+  if(!document.querySelector('#sticky-sidebar').classList.contains('hide'))
+$('#sticky-sidebar').toggleClass('hide')
+}
