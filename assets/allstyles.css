@@ -649,7 +649,7 @@ color: black;
 -----------------------------------------------------------reccs---------------------------- */
 #sticky-sidebar {
 min-height: 100vh;
-transition: max-width 0.8s;
+transition: max-width 1s;
 overflow:hidden;
 width: fit-content;
 background-color: black;
@@ -708,8 +708,13 @@ font-weight: bold;
   text-align: center;
   padding-right:0px;
   background-color: black;
-  position:relative
+  position:relative;
+  border-top: 1px solid teal;
+  border-right:1px solid teal;
+
 }
+
+
 #authorization
 {
   border: 2px solid teal;
@@ -717,6 +722,13 @@ font-weight: bold;
   color: white;
   width: fit-content ;
   height: 220px;
+}
+#sectorheadingcontainer
+{
+  border: 1px solid darkgoldenrod;
+  border-radius: 7px;
+  padding: 2px;
+  color: white;
 }
 
 /* -------------------------------- media query-------------------------------- */
@@ -764,27 +776,37 @@ div div h1
 #sector-toggler
 {
   display:inline;
-  border: 1px solid teal;
-
+background-color: teal ;
+border-top: black;
+border-right:black;
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
 }
 #sticky-sidebar
 {
-  width:60%;
+  width:45%;
   z-index:9;
+
 }
 .content
 {
   padding:0px;
+  
 }
 .pekoms
 {
   padding:0px;
   margin:0px;
 }
-
+.sectorheading
+{
+  font-size: 30px;
+ 
+}
 }
 
 
 
 
 
+/* 62fda73511fdc766ac963cf0d192254d6162db22 */

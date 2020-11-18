@@ -37,7 +37,7 @@ function makeCards(obj)
     var price=document.createElement('p');
     price.textContent=obj['Company '+i]['Current Price (Rs)'];
     price.classList.add('price');
-    div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="200"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+(i+1)]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+(i+1)]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
+    div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="500"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+(i+1)]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+(i+1)]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
   
   }
 }
@@ -189,12 +189,12 @@ $('.navbar-toggler').on('click', function(e)
   $(target).toggleClass('hide') ;
 });
 
-$('.sectorbutton').on('click', function(e)
- {
-     e.preventDefault();
-  var target = $(this).data('target');
-  $(target).toggleClass('hide') ;
-});
+// $('.sectorbutton').on('click', function(e)
+//  {
+//      e.preventDefault();
+//   var target = $(this).data('target');
+//   $(target).toggleClass('hide') ;
+// });
 
 
 $(window).resize(function() {
@@ -212,10 +212,14 @@ function showSectorbar()
 {
   if(document.querySelector('#sticky-sidebar').classList.contains('hide'))
   $('#sticky-sidebar').toggleClass('hide')
+  $("#sectortoggler").css({'height':($("#sticky-sidebar").height()+'px')})
+  
 }
 function hideSectorbar()
 {
  
   if(!document.querySelector('#sticky-sidebar').classList.contains('hide'))
 $('#sticky-sidebar').toggleClass('hide')
+$("#sectortoggler").css({'height':($("#sticky-sidebar").height()+'px')})
+
 }
