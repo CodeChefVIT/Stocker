@@ -745,7 +745,16 @@ font-weight: bold;
 {
   color: #d13617;
 }
-
+#sectorchoicetitle
+{
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+.selected
+{
+  background:teal;
+  color:black;
+}
 /* -------------------------------- media query-------------------------------- */
 @media(max-width:700px)
 {
@@ -830,4 +839,3 @@ border-bottom-right-radius: 0%;
 
 
 
-/* 62fda73511fdc766ac963cf0d192254d6162db22 */

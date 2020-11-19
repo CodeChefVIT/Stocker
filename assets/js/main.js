@@ -94,15 +94,18 @@ function sectorchoice(val)
 {
 
   var url='https://stocker-cc.herokuapp.com/api/sector/'+val+'/';
+  // var title=document.querySelector('#sectorchoicetitle')
+  // console.log(title)
+  // title.textContent=val;
   requestt(url)
   const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
   if(vw<700)
   {
     $('#sticky-sidebar').toggleClass('hide') ;
   }
-
-
+  
 }
+
 
 
 function destroy()
@@ -204,12 +207,14 @@ $('.navbar-toggler').on('click', function(e)
   $(target).toggleClass('hide') ;
 });
 
-// $('.sectorbutton').on('click', function(e)
-//  {
-//      e.preventDefault();
-//   var target = $(this).data('target');
-//   $(target).toggleClass('hide') ;
-// });
+$(".sectorbutton").click(function(){
+
+  var val = $(this).val();
+  $('.sectorbutton').removeClass('selected');
+  $(this).addClass('selected');
+  $('.selectedVal').val(val);
+
+});
 
 
 $(window).resize(function() {
