@@ -655,7 +655,8 @@ width: fit-content;
 background-color: black;
 text-align: center;
 border-radius: 7px;
-width:27%;
+width: 23%;
+max-width:25%;
 }
 #sticky-sidebar.hide {
 max-width:0;
@@ -737,7 +738,7 @@ font-weight: bold;
 }
 .percentage
 {
-  color:#37e872;
+  color:#28A745;
 }
 
 .percentageloss
@@ -798,7 +799,8 @@ border-bottom-right-radius: 0%;
 }
 #sticky-sidebar
 {
-  width:45%;
+  width: 45%;
+  max-width:45%;
   z-index:9;
 
 }

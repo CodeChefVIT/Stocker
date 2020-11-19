@@ -42,10 +42,9 @@ function checkgl(obj)
 {
   var list=document.getElementsByClassName('gl');
   var list1=document.getElementsByClassName('gl1')
-  console.log(list)
   for(var i=1;i<=10;++i)
   {
-    console.log(obj['Company '+i]['% Change'])
+    
     if(obj['Company '+i]['% Change']<0)
     {
       list[i-1].classList.add('percentageloss')
