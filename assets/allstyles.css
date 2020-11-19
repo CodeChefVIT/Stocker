@@ -671,6 +671,7 @@ text-align: center;
 color: gold;
 padding: 0;
 font-size: 22px;
+
 }
 .tags
 {
@@ -713,7 +714,11 @@ font-weight: bold;
   border-right:1px solid teal;
 
 }
-
+.companyTitle
+{
+ font-size: 19px;  
+ text-decoration: underline;  
+}
 
 #authorization
 {
@@ -729,6 +734,15 @@ font-weight: bold;
   border-radius: 7px;
   padding: 2px;
   color: white;
+}
+.percentage
+{
+  color:#37e872;
+}
+
+.percentageloss
+{
+  color: #d13617;
 }
 
 /* -------------------------------- media query-------------------------------- */
@@ -802,6 +816,11 @@ border-bottom-right-radius: 0%;
 {
   font-size: 30px;
  
+}
+.companyTitle
+{
+  white-space: inherit;
+
 }
 }
 
