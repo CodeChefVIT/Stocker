@@ -727,7 +727,7 @@ font-weight: bold;
   background: black;
   color: white;
   width: fit-content ;
-  height: 220px;
+  height: fit-content;
 }
 #sectorheadingcontainer
 {

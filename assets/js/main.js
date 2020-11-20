@@ -195,6 +195,9 @@ function unauthorised()
 {
     var element=document.getElementById('authorization')
     console.log(element)
+    if(!element.classList.contains('nodisplay'))
+    console.log('')
+    else
     element.classList.toggle('nodisplay')
 }
 
