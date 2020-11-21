@@ -755,6 +755,15 @@ font-weight: bold;
   background:teal;
   color:black;
 }
+#loading
+{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+justify-content: center;
+z-index: 100;
+  
+}
 /* -------------------------------- media query-------------------------------- */
 @media(max-width:700px)
 {

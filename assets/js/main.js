@@ -68,13 +68,14 @@ function requestt(url)
     xhr.open("GET", url, true)
     xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.setRequestHeader('Authorization',jwt)
-
+    document.getElementById("loading").innerHTML ='<img class="preloader" src="assets/img/Eclipse-loader-200px.svg" alt="">'
     xhr.send()
     xhr.onload=function()
     {
-        if(this.status==200)
+        if(this.status==200 && this.readyState==4)
         {
             var data = JSON.parse(this.responseText)
+            document.getElementById("loading").innerHTML = '';
             console.log(data);
             makeCards(data);
             checkgl(data)
@@ -84,6 +85,7 @@ function requestt(url)
             alert('Error in getting items')
         }
         else if(this.status==401){
+          document.getElementById("loading").innerHTML = '';
             console.log('Please authenticate user')
             unauthorised();
         }
