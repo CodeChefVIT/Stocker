@@ -97,7 +97,7 @@ padding-right: 5px;
 .price
 {
 
-  color:#28a026;
+  color:#37e872;
   font-size: 20px;
 display: inline;
 float: right;
@@ -211,6 +211,15 @@ padding-right: 5px;
   {
     float: none;
   }
+}
+#loading
+{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+justify-content: center;
+z-index: 100;
+  
 }
 
 

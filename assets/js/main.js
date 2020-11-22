@@ -1,6 +1,7 @@
 var div=document.querySelector('.content')
 const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+jQuery.noConflict();
 
 if(vw>700)
 {
@@ -31,16 +32,34 @@ function makeCards(obj)
 {
   for(var i=1;i<=10;i+=2)
   {
-    var percentage=document.createElement('p');
-    percentage.textContent=obj['Company '+i]['% Change'];
-    percentage.classList.add('percentage');
-    var price=document.createElement('p');
-    price.textContent=obj['Company '+i]['Current Price (Rs)'];
-    price.classList.add('price');
-    div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="200"><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add under observation"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+i]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+i]['% Change']+ '</span> <span class="tags">Current price (Rs): '+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"> <span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>'+obj['Company '+(i+1)]["Company Name"]+'</h5><p class="card-text"><span class="tags">% change in price: '+obj['Company '+(i+1)]['% Change']+' </span><span class="tags">Current price (Rs): '+obj["Company "+(i+1)]["Current Price (Rs)"]+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
   
+  div.insertAdjacentHTML('beforeend','<div class=" pekoms row aos-init aos-animate col" data-aos="zoom-in"  data-aos-duration="500"><div class="col-sm-12 col-md-6 d-flex align-items-stretch"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"><span class="companyTitle">'+obj['Company '+i]["Company Name"]+'</span></h5><p class="card-text"><span class="tags">% change in price: <span class="gl">'+obj['Company '+i]['% Change']+ '</span></span> <span class="tags">Current price (Rs): <span class="gl1">'+obj['Company '+i]['Current Price (Rs)']+' </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><div class="col-sm-12 col-md-6 d-flex align-items-stretch"><div class="card text-white company hvr-float"><div class="card-body"><h5 class="card-heading"><span class="companyTitle">'+obj['Company '+(i+1)]["Company Name"]+'</span></h5><p class="card-text"><span class="tags">% change in price: <span class="gl">'+obj['Company '+(i+1)]['% Change']+'</span> </span><span class="tags">Current price (Rs): <span class="gl1">'+obj["Company "+(i+1)]["Current Price (Rs)"]+'</span> </span></p><button class="btn btn-outline-success moreinfo" onclick="showMoreInfo()">More Info</button></div></div></div><br></div>' )
+    // $(".companyTitle").fitText(1.5,{minFontSize: '15px', maxFontSize: '40px'});
+    
   }
 }
+function checkgl(obj)
+{
+  var list=document.getElementsByClassName('gl');
+  var list1=document.getElementsByClassName('gl1')
+  for(var i=1;i<=10;++i)
+  {
+    
+    if(obj['Company '+i]['% Change']<0)
+    {
+      list[i-1].classList.add('percentageloss')
+      list1[i-1].classList.add('percentageloss')
+    }
+    else{
+      list[i-1].classList.add('percentage')
+      list1[i-1].classList.add('percentage')
+    }
+    
+  }
+
+}
+
+
 function requestt(url)
 {
     destroy();
@@ -49,21 +68,24 @@ function requestt(url)
     xhr.open("GET", url, true)
     xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.setRequestHeader('Authorization',jwt)
-
+    document.getElementById("loading").innerHTML ='<img class="preloader" src="assets/img/Eclipse-loader-200px.svg" alt="">'
     xhr.send()
     xhr.onload=function()
     {
-        if(this.status==200)
+        if(this.status==200 && this.readyState==4)
         {
             var data = JSON.parse(this.responseText)
+            document.getElementById("loading").innerHTML = '';
             console.log(data);
-            makeCards(data)
+            makeCards(data);
+            checkgl(data)
 
         }
         else if(this.status==400){
             alert('Error in getting items')
         }
         else if(this.status==401){
+          document.getElementById("loading").innerHTML = '';
             console.log('Please authenticate user')
             unauthorised();
         }
@@ -74,15 +96,18 @@ function sectorchoice(val)
 {
 
   var url='https://stocker-cc.herokuapp.com/api/sector/'+val+'/';
+  // var title=document.querySelector('#sectorchoicetitle')
+  // console.log(title)
+  // title.textContent=val;
   requestt(url)
   const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
   if(vw<700)
   {
     $('#sticky-sidebar').toggleClass('hide') ;
   }
-
-
+  
 }
+
 
 
 function destroy()
@@ -136,12 +161,7 @@ function chatbotToggle()
 
 
 
-  // $('.btn-lg').click(function() {
-  //   console.log('lol')
-  //   $('<div class="message">lolololollolololololololololololololololololol</div>').appendTo($('.message-container')).addClass('animate__animated animate__headShake');
-  //   scrollSmoothToBottom('messagingBox')
 
-  // });
 
 //  ------------------------authorization--------------------
 
@@ -177,6 +197,9 @@ function unauthorised()
 {
     var element=document.getElementById('authorization')
     console.log(element)
+    if(!element.classList.contains('nodisplay'))
+    console.log('')
+    else
     element.classList.toggle('nodisplay')
 }
 
@@ -189,11 +212,13 @@ $('.navbar-toggler').on('click', function(e)
   $(target).toggleClass('hide') ;
 });
 
-$('.sectorbutton').on('click', function(e)
- {
-     e.preventDefault();
-  var target = $(this).data('target');
-  $(target).toggleClass('hide') ;
+$(".sectorbutton").click(function(){
+
+  var val = $(this).val();
+  $('.sectorbutton').removeClass('selected');
+  $(this).addClass('selected');
+  $('.selectedVal').val(val);
+
 });
 
 
@@ -212,10 +237,17 @@ function showSectorbar()
 {
   if(document.querySelector('#sticky-sidebar').classList.contains('hide'))
   $('#sticky-sidebar').toggleClass('hide')
+  $("#sectortoggler").css({'height':($("#sticky-sidebar").height()+'px')})
+  
 }
 function hideSectorbar()
 {
  
   if(!document.querySelector('#sticky-sidebar').classList.contains('hide'))
 $('#sticky-sidebar').toggleClass('hide')
+$("#sectortoggler").css({'height':($("#sticky-sidebar").height()+'px')})
+
 }
+
+
+//<span onclick="add()" class="float-right hvr-grow" data-toggle="tooltip" data-placement="top" title="Add to interests"><i class="fas fa-plus fa-sm"></i></span>

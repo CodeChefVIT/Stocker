@@ -649,13 +649,14 @@ color: black;
 -----------------------------------------------------------reccs---------------------------- */
 #sticky-sidebar {
 min-height: 100vh;
-transition: max-width 0.8s;
+transition: max-width 1s;
 overflow:hidden;
 width: fit-content;
 background-color: black;
 text-align: center;
 border-radius: 7px;
-width:27%;
+width: 23%;
+max-width:25%;
 }
 #sticky-sidebar.hide {
 max-width:0;
@@ -671,6 +672,7 @@ text-align: center;
 color: gold;
 padding: 0;
 font-size: 22px;
+
 }
 .tags
 {
@@ -708,17 +710,60 @@ font-weight: bold;
   text-align: center;
   padding-right:0px;
   background-color: black;
-  position:relative
+  position:relative;
+  border-top: 1px solid teal;
+  border-right:1px solid teal;
+
 }
+.companyTitle
+{
+ font-size: 19px;  
+ text-decoration: underline;  
+}
+
 #authorization
 {
   border: 2px solid teal;
   background: black;
   color: white;
   width: fit-content ;
-  height: 220px;
+  height: fit-content;
+}
+#sectorheadingcontainer
+{
+  border: 1px solid darkgoldenrod;
+  border-radius: 7px;
+  padding: 2px;
+  color: white;
+}
+.percentage
+{
+  color:#28A745;
 }
 
+.percentageloss
+{
+  color: #d13617;
+}
+#sectorchoicetitle
+{
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+.selected
+{
+  background:teal;
+  color:black;
+}
+#loading
+{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+justify-content: center;
+z-index: 100;
+  
+}
 /* -------------------------------- media query-------------------------------- */
 @media(max-width:700px)
 {
@@ -764,24 +809,39 @@ div div h1
 #sector-toggler
 {
   display:inline;
-  border: 1px solid teal;
-
+background-color: teal ;
+border-top: black;
+border-right:black;
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
 }
 #sticky-sidebar
 {
-  width:60%;
+  width: 45%;
+  max-width:45%;
   z-index:9;
+
 }
 .content
 {
   padding:0px;
+  
 }
 .pekoms
 {
   padding:0px;
   margin:0px;
 }
+.sectorheading
+{
+  font-size: 30px;
+ 
+}
+.companyTitle
+{
+  white-space: inherit;
 
+}
 }
 
 
