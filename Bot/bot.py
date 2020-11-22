@@ -1,5 +1,6 @@
 import telebot
 import os
+import pandas as pd
 from iexfinance.stocks import Stock
 import spacy
 from rasa_nlu.training_data import load_data
@@ -7,7 +8,17 @@ from rasa_nlu.config import RasaNLUModelConfig
 from rasa_nlu.model import Trainer
 from rasa_nlu import config
 import requests
-TOKEN = "1317001419:AAHI1jki_au_nlULx_asnDJsWBeYMJzN-P8"
+TOKEN = ""
+
+import logging
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+# Enable logging
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    level=logging.INFO)
+
+logger = logging.getLogger(__name__)
+
 bot = telebot.TeleBot(TOKEN)
 
 os.environ["IEX_TOKEN"] = "pk_9a107cfc301b4cceab10279f13515751"
@@ -29,7 +40,9 @@ SHOW_VOLUME = 12
 SHOW_VALUE = 13
 
 policy = {
-    (INIT, "greet"): (INIT, "Hi there, I'm Stocker Bot. What can I do for you?", None),
+    (INIT, "greet"): (INIT, "Hi there, I'm Stocker Bot. Follow the help commands to get started!\n"
+                      "You can search for \n 1. Stock prices \n 2. Stock Volume \n 3. Stock market cap \n"
+                      "Go ahead and ask me about one of these things", None),
     (INIT, "search_price"): (SEARCH_PRICE, "I see. so, which company?", None),
     (INIT, "search_specific_price"): (GIVE_RESULTS, "Here are the results:", SHOW_PRICE),
     (INIT, "search_volume"): (SEARCH_VOLUME, "I see. so, which company?", None),
@@ -100,7 +113,7 @@ def send_message1(state, message):
         if out_sig == SHOW_PRICE:
             stock = Stock(entity)
             df = stock.get_quote()
-            result = '%-15s%s' % ('Stock:', df['symbol']) + '\n' + '%-15s%s' % ('Price:', str(df['latestPrice'])) + '\n' \
+            result = '%-15s%s' % ('Stock:', df['symbol']) + '\n' + '%-15s%s' % ('Stock name:', str(df['companyName'])) + '\n' + '%-15s%s' % ('Price:', str(df['latestPrice'])) + '\n' \
                      + '%-15s%s' % ('Change:', str(df['change'])) + '\n' + '%-15s%s' % ('Time:', df['latestTime'])
             bot.send_message(chat_id, result)
         elif out_sig == SHOW_VOLUME:
@@ -113,7 +126,6 @@ def send_message1(state, message):
             df = stock.get_quote()
             result = '%-15s%s' % ('Stock:', df['symbol']) + '\n' + '%-15s%s' % ('MarketCap:', str(df['marketCap']))
             bot.send_message(chat_id, result)
-
     return new_state
 
 

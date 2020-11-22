@@ -182,11 +182,14 @@
         "text": "AMZN",
         "intent": "specify_company"
       },
-
+	  {
+        "text": "NKE",
+        "intent": "specify_company"
+      },
       {
         "text": "bye",
         "intent": "exit"
-      }, 
+      },
       {
         "text": "goodbye",
         "intent": "exit"
